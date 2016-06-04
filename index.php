@@ -5,7 +5,6 @@
 	<head>
 		<title>Pagina Inicial - Cabelos</title>
 		<meta charset="UTF-8">
-		
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 		<link rel="stylesheet" href="mdl/material.red-orange.min.css" />
 		<script defer src="mdl/material.min.js"></script>
