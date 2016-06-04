@@ -16,17 +16,10 @@
 
 	<body>
 		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-			<header class="mdl-layout__header">
-				<div class="mdl-layout__header-row menu-row">
-					
-					<nav class="mdl-navigation">
-					
-					<a href="catalogo.html" class="mdl-navigation__link">Catálogo</a>
-					<a href="agendamento.html" class="mdl-navigation__link">Agendamento</a>
-					<a href="sobre.html" class="mdl-navigation__link">Sobre</a>
-					</nav>
-				</div>
-			</header>
+            <?php 
+            include("menu.php");
+            ?>
+
 			<div class="mdl-layout__drawer">
 				<span class="mdl-layout-title">Categorias</span>
 				<nav class="mdl-navigation">
