@@ -1,18 +1,16 @@
 .menu-logo {
-	min-height: 130px;
-	background-color: #fff;
-	background-image: url('../imagens/logo-exemplo.png');
-	background-size: 220px;
-	background-position: center;
-	background-repeat: no-repeat;
+    min-height: 130px;
+    background-color: #fff;
+    background-image: url('../imagens/logo-exemplo.png');
+    background-size: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
 	
 }
 .menu-row {
 	justify-content: center;
 }
-
-#content {
-	background-color: #fafafa;
-	height: 25%;
-	width: 75%;
+.celulas-grid {
+    background-color: #fafafa;
+    border: 1px solid #000000;
 }
