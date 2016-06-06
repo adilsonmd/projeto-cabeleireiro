@@ -9,6 +9,11 @@
     <script defer src="mdl/material.min.js"></script>
     <link rel="stylesheet" href="css/estilo.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .teste {
+            background-color: #fcfcfc;
+        }
+    </style>
 </head>
 
 <body>
@@ -25,8 +30,16 @@
                 <a href="#" class="mdl-navigation__link">Alisamento</a>
                 <a href="#" class="mdl-navigation__link">Coloração</a>
             </nav>
-        </div>			
-        <div id="content">			
+        </div>	
+                    <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--3-col teste"></div> <!-- Espaçamento -->
+                
+                <div class="mdl-cell mdl-cell--3-col teste"> <!-- conteúdo --></div>
+                
+                <div class="mdl-cell mdl-cell--3-col teste"></div> <!-- Espaçamento -->
+                
+                <div class="mdl-cell mdl-cell--3-col teste"></div> <!-- Espaçamento -->
+            </div>
         </div>
         	
     </div>
