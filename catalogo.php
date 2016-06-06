@@ -12,6 +12,8 @@
     <style>
         .teste {
             background-color: #fcfcfc;
+            color:white;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -32,13 +34,13 @@
             </nav>
         </div>	
                     <div class="mdl-grid">
-                <div class="mdl-cell mdl-cell--3-col teste"></div> <!-- Espaçamento -->
+                <div class="mdl-cell mdl-cell--3-col teste">3</div> <!-- Espaçamento -->
                 
-                <div class="mdl-cell mdl-cell--3-col teste"> <!-- conteúdo --></div>
+                <div class="mdl-cell mdl-cell--3-col teste">3 <!-- conteúdo --></div>
                 
-                <div class="mdl-cell mdl-cell--3-col teste"></div> <!-- Espaçamento -->
+                <div class="mdl-cell mdl-cell--3-col teste">3</div> <!-- Espaçamento -->
                 
-                <div class="mdl-cell mdl-cell--3-col teste"></div> <!-- Espaçamento -->
+                <div class="mdl-cell mdl-cell--3-col teste">3</div> <!-- Espaçamento -->
             </div>
         </div>
         	
