@@ -10,9 +10,6 @@
 .menu-row {
     justify-content: center;
 }
-.grid-ajustes-esquerda{
-    margin-left: 0;
-}
-.grid-ajustes-direita {
-    margin-right: 0;
+.mdl-grid {
+    margin: auto 0 auto 0;
 }
