@@ -11,9 +11,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         .teste {
-            background-color: #fcfcfc;
+            background-color: #cccccc;
             color:white;
             font-weight: bold;
+            max-height: 50px;
         }
     </style>
 </head>
@@ -33,17 +34,18 @@
                 <a href="#" class="mdl-navigation__link">Coloração</a>
             </nav>
         </div>	
-                    <div class="mdl-grid">
-                <div class="mdl-cell mdl-cell--3-col teste">3</div> <!-- Espaçamento -->
+        
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--3-col teste">3</div> <!-- Espaçamento -->
                 
-                <div class="mdl-cell mdl-cell--3-col teste">3 <!-- conteúdo --></div>
+            <div class="mdl-cell mdl-cell--3-col teste">3 <!-- conteúdo --></div>
                 
-                <div class="mdl-cell mdl-cell--3-col teste">3</div> <!-- Espaçamento -->
+            <div class="mdl-cell mdl-cell--3-col teste">3</div> <!-- Espaçamento -->
                 
-                <div class="mdl-cell mdl-cell--3-col teste">3</div> <!-- Espaçamento -->
-            </div>
+            <div class="mdl-cell mdl-cell--3-col teste">3</div> <!-- Espaçamento -->
         </div>
-        	
+        
     </div>
+    
 </body>
 </html>
