@@ -10,3 +10,7 @@
 .menu-row {
 	justify-content: center;
 }
+
+#content {
+	background-color: #fafafa;
+}
