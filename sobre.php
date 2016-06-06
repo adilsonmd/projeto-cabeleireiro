@@ -19,5 +19,11 @@
             include("menu.php");
             ?>
         </div>
+        
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell-2-col"></div>
+            <div id="content" class="mdl-cell mdl-cell-8-col"></div>
+            <div class="mdl-cell mdl-cell-2-col"></div>
+        </div>
     </body>
 </html>
