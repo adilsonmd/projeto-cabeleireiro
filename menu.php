@@ -1,5 +1,5 @@
 <header class="mdl-layout__header">
-    <div class="mdl-layout__header-row menu-logo"></div>
+    <a href="index.php"><div class="mdl-layout__header-row menu-logo"></div></a>
     
     <div class="mdl-layout__header-row menu-row">            
         <nav class="mdl-navigation">		
