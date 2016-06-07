@@ -18,10 +18,12 @@
 		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
             <?php 
             include("menu.php");
-            ?>			
-		</div>
-		<?php
+            ?>	
+					
+			<?php
             include("footer.html");
-		?>
+			?>
+		</div>
+		
 	</body>
 </html>
