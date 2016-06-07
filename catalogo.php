@@ -15,11 +15,11 @@
         }
         .mdl-cell {
             box-sizing: border-box;
-            background-color: #BDBDBD;
-            height: 200px;
+            background-color: #fcfcfc;
+            height: 100px;
             padding-left: 8px;
             padding-top: 4px;
-            color: white;
+            color: black;
         }
         .mdl-grid:first-of-type .mdl-cell {
             height: 50px;
@@ -44,7 +44,7 @@
         </div>	
         
         <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--2-col-desktop teste">2</div> <!-- Espaçamento -->
+            <div class="mdl-cell mdl-cell--2-col-desktop teste">Espaço em branco = 2</div> <!-- Espaçamento -->
                 
             <div class="mdl-cell mdl-cell--3-col-desktop teste">3 <!-- conteúdo --></div>
                 
@@ -52,7 +52,7 @@
                 
             <div class="mdl-cell mdl-cell--3-col-desktop teste">3</div> <!-- Espaçamento -->
 
-            <div class="mdl-cell mdl-cell--1-col-desktop teste">1</div>
+            <div class="mdl-cell mdl-cell--1-col-desktop teste">Espaço em branco = 1</div>
         </div>
         
     </div>
