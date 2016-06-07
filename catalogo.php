@@ -56,7 +56,7 @@
                 
             <div class="mdl-cell mdl-cell--3-col-desktop teste img-cell">imagem</div> <!-- Espaçamento -->
 
-            <div class="mdl-cell mdl-cell--1-col-desktop teste img-cell">Espaço em branco = 1</div>
+            <div class="mdl-cell mdl-cell--1-col-desktop teste">Espaço em branco = 1</div>
         </div>
 
         <div class="mdl-grid">
@@ -68,9 +68,9 @@
                 
             <div class="mdl-cell mdl-cell--3-col-desktop teste img-cell">imagem</div> <!-- Espaçamento -->
 
-            <div class="mdl-cell mdl-cell--1-col-desktop teste img-cell">Espaço em branco = 1</div>
+            <div class="mdl-cell mdl-cell--1-col-desktop teste">Espaço em branco = 1</div>
         </div>
-        
+
         <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--2-col-desktop teste">Espaço em branco = 2</div> <!-- Espaçamento -->
                 
@@ -80,7 +80,7 @@
                 
             <div class="mdl-cell mdl-cell--3-col-desktop teste img-cell">imagem</div> <!-- Espaçamento -->
 
-            <div class="mdl-cell mdl-cell--1-col-desktop teste img-cell">Espaço em branco = 1</div>
+            <div class="mdl-cell mdl-cell--1-col-desktop teste">Espaço em branco = 1</div>
         </div>
         
         <?php
