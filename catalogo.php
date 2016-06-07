@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         .teste {
-            background-color: #cccccc;
+            background-color: #222;
             color:white;
             font-weight: bold;
             max-height: 50px;
@@ -36,13 +36,15 @@
         </div>	
         
         <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--3-col teste">3</div> <!-- Espaçamento -->
+            <div class="mdl-cell mdl-cell--2-col-desktop teste">2</div> <!-- Espaçamento -->
                 
-            <div class="mdl-cell mdl-cell--3-col teste">3 <!-- conteúdo --></div>
+            <div class="mdl-cell mdl-cell--3-col-desktop teste">3 <!-- conteúdo --></div>
                 
-            <div class="mdl-cell mdl-cell--3-col teste">3</div> <!-- Espaçamento -->
+            <div class="mdl-cell mdl-cell--3-col-desktop teste">3</div> <!-- Espaçamento -->
                 
-            <div class="mdl-cell mdl-cell--3-col teste">3</div> <!-- Espaçamento -->
+            <div class="mdl-cell mdl-cell--3-col-desktop teste">3</div> <!-- Espaçamento -->
+
+            <div class="mdl-cell mdl-cell--1-col-desktop teste">1</div>
         </div>
         
     </div>
