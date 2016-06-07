@@ -23,9 +23,15 @@
                 
                 <div id="content" class="mdl-cell mdl-cell--8-col"> <!-- conteúdo -->
                     <div class="mdl-grid mdl-layout__content">
-                        <div class="mdl-cell mdl-cel--4-col">
+                        <div class="mdl-cell mdl-cel--6-col">
                             <h3 class="mdl-layout__title">Conheça a gente!</h3>
                             <p>Contatos:</p>
+                            <ul class="mdl-list">
+                                <li class="mdl-list__item">Telefone: (13) 3482-8123</li>
+                                <li class="mdl-list__item">Facebook: <a href="#" class="">Cabelos</a></li>
+                                <li class="mdl-list__item">WhatsApp: (13) 98853-4512</li>
+                            </ul>
+                            <p></p>
                         </div>
                     </div>
                     <div class="mdl-grid">
@@ -35,6 +41,10 @@
                 
                 <div class="mdl-cell mdl-cell--2-col-desktop"></div> <!-- Espaçamento -->
             </div>
+
+            <?php
+            include("footer.html");
+            ?>
         </div>
 
     </body>

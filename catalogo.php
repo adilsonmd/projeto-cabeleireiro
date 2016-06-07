@@ -55,6 +55,9 @@
             <div class="mdl-cell mdl-cell--1-col-desktop teste">Espaço em branco = 1</div>
         </div>
         
+        <?php
+        include("footer.html");
+        ?>
     </div>
     
 </body>
