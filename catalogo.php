@@ -14,8 +14,8 @@
             margin: 10px 0 10px 0;
         }
         .teste {
-            background-color: #222;
-            color:white;
+            background-color: #fafafa;
+            color: black;
             font-weight: bold;
             max-height: 50px;
         }
