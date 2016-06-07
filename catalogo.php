@@ -13,11 +13,16 @@
         .mdl-grid {
             margin: 10px 0 10px 0;
         }
-        .teste {
-            background-color: #fafafa;
-            color: black;
-            font-weight: bold;
-            max-height: 50px;
+        .mdl-cell {
+            box-sizing: border-box;
+            background-color: #BDBDBD;
+            height: 200px;
+            padding-left: 8px;
+            padding-top: 4px;
+            color: white;
+        }
+        .mdl-grid:first-of-type .mdl-cell {
+            height: 50px;
         }
     </style>
 </head>
