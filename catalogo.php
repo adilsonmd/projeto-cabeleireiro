@@ -24,6 +24,10 @@
         .mdl-grid:first-of-type .mdl-cell {
             height: 50px;
         }
+        .img-cell{
+           background-color: #bdbdbd;
+           color: white; 
+        }
     </style>
 </head>
 
@@ -46,13 +50,37 @@
         <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--2-col-desktop teste">Espaço em branco = 2</div> <!-- Espaçamento -->
                 
-            <div class="mdl-cell mdl-cell--3-col-desktop teste">3 <!-- conteúdo --></div>
+            <div class="mdl-cell mdl-cell--3-col-desktop teste img-cell">imagem <!-- conteúdo --></div>
                 
-            <div class="mdl-cell mdl-cell--3-col-desktop teste">3</div> <!-- Espaçamento -->
+            <div class="mdl-cell mdl-cell--3-col-desktop teste img-cell">imagem</div> <!-- Espaçamento -->
                 
-            <div class="mdl-cell mdl-cell--3-col-desktop teste">3</div> <!-- Espaçamento -->
+            <div class="mdl-cell mdl-cell--3-col-desktop teste img-cell">imagem</div> <!-- Espaçamento -->
 
-            <div class="mdl-cell mdl-cell--1-col-desktop teste">Espaço em branco = 1</div>
+            <div class="mdl-cell mdl-cell--1-col-desktop teste img-cell">Espaço em branco = 1</div>
+        </div>
+
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--2-col-desktop teste">Espaço em branco = 2</div> <!-- Espaçamento -->
+                
+            <div class="mdl-cell mdl-cell--3-col-desktop teste img-cell">imagem <!-- conteúdo --></div>
+                
+            <div class="mdl-cell mdl-cell--3-col-desktop teste img-cell">imagem</div> <!-- Espaçamento -->
+                
+            <div class="mdl-cell mdl-cell--3-col-desktop teste img-cell">imagem</div> <!-- Espaçamento -->
+
+            <div class="mdl-cell mdl-cell--1-col-desktop teste img-cell">Espaço em branco = 1</div>
+        </div>
+        
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--2-col-desktop teste">Espaço em branco = 2</div> <!-- Espaçamento -->
+                
+            <div class="mdl-cell mdl-cell--3-col-desktop teste img-cell">imagem <!-- conteúdo --></div>
+                
+            <div class="mdl-cell mdl-cell--3-col-desktop teste img-cell">imagem</div> <!-- Espaçamento -->
+                
+            <div class="mdl-cell mdl-cell--3-col-desktop teste img-cell">imagem</div> <!-- Espaçamento -->
+
+            <div class="mdl-cell mdl-cell--1-col-desktop teste img-cell">Espaço em branco = 1</div>
         </div>
         
         <?php
