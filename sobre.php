@@ -25,7 +25,6 @@
                     <div class="mdl-grid mdl-layout__content">
                         <div class="mdl-cell mdl-cel--6-col">
                             <h3 class="mdl-layout__title">Conheça a gente!</h3>
-                            <p>Contatos:</p>
                             <ul class="mdl-list">
                                 <li class="mdl-list__item">Telefone: (13) 3482-8123</li>
                                 <li class="mdl-list__item">Facebook: <a href="#" class="">Cabelos</a></li>
