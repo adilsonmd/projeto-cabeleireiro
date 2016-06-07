@@ -35,10 +35,10 @@
                 <div class="mdl-cell mdl-cell--2-col-desktop"></div> <!-- Espaçamento -->
             </div>
 
-            <?php
-            include("footer.html");
-            ?>
-        </div>
 
+        </div>
+        <?php
+            include("footer.html");
+        ?>
     </body>
 </html>

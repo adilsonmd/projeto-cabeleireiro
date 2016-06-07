@@ -18,10 +18,10 @@
             <?php 
             include("menu.php");
             ?>
-
-			<?php
-            include("footer.html");
-            ?>
+	
 		</div>
+		<?php
+            include("footer.html");
+		?>
 	</body>
 </html>
