@@ -39,21 +39,24 @@
 				<div id="content" class="mdl-cell mdl-cell--8-col mdl-layout__content"> <!-- Conteúdo -->
 
 					<h3 class="mdl-layout__title">Marque um horário</h3>
-					<div class="mdl-textfield mdl-js-textfield">
-						<input class="mdl-textfield__input" type="text" id="user" pattern="[A-Z,a-z, ]*">
-						<label class="mdl-textfield__label" for="user">Seu nome</label>
-						<span class="mdl-textfield__error">Apenas letras e espaço</span>
-					</div>
+					<form action="" method="GET">
+						<div class="mdl-textfield mdl-js-textfield">
+							<input class="mdl-textfield__input" type="text" id="user" pattern="[A-Z,a-z, ]*">
+							<label class="mdl-textfield__label" for="user">Seu nome</label>
+							<span class="mdl-textfield__error">Apenas letras e espaço</span>
+						</div>
 
-					<div class="mdl-textfield mdl-js-textfield">
-						<input class="mdl-textfield__input" type="text" id="telefone" pattern="[\(]\d{2}[\)]\d{4}[\-]\d{4}">
-						<label class="mdl-textfield__label" for="user">Seu telefone</label>
-						<span class="mdl-textfield__error">Preencha corretamente</span>
-					</div>
-					<br>
-					<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-						Agendar
-					</button>
+						<div class="mdl-textfield mdl-js-textfield">
+							<input class="mdl-textfield__input" type="text" id="telefone" pattern="[\(]\d{2}[\)]\d{4}[\-]\d{4}">
+							<label class="mdl-textfield__label" for="user">Seu telefone</label>
+							<span class="mdl-textfield__error">Preencha corretamente</span>
+						</div>
+						<br>
+						
+						<button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+							Agendar
+						</button>
+					</form>
 				</div>
 
 				<div class="mdl-cell mdl-cell--2-col"></div> <!-- Espaçamento -->
