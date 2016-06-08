@@ -54,7 +54,9 @@
 
 					<input type="calendar">
 					<br>
-					<button class="mdl-button mdl-js-button">Agendar</button>
+					<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+					Agendar
+					</button>
 				</div>
 
 				<div class="mdl-cell mdl-cell--2-col"></div> <!-- Espaçamento -->
