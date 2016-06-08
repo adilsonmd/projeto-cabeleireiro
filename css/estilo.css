@@ -11,8 +11,12 @@
     justify-content: center;
 }
 
-/*.mdl-layout__content {
+.mdl-grid {
+        margin: 10px 0 10px 0;
+}
+
+.mdl-layout__content {
     background-color: bisque;
     border: 1px burlywood solid;
-}*/
+}
 
