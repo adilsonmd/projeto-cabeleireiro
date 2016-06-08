@@ -18,9 +18,15 @@
             <?php 
             include("menu.php");
             ?>
+
+			<div id="content" class="mdl-layout__content">
+				<h3 class="mdl-layout__title">Página inicial</h3>
+			</div>
+
 			<?php
             include("footer.html");
 			?>
+
 		</div>
 		
 	</body>
