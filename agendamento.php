@@ -21,7 +21,7 @@
 			$('#telefonep').mask(masks, options);
 		}};
 
-		$('#telefone').mask('0000-0000', options);
+		$('#telefone').mask('(00)0000-0000', options);
 		</script>
 
 	</head>
@@ -44,7 +44,7 @@
 					</div>
 
 					<div class="mdl-textfield mdl-js-textfield">
-						<input class="mdl-textfield__input" type="text" id="telefone" pattern="[0-9]*">
+						<input class="mdl-textfield__input" type="text" id="telefone" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}">
 						<label class="mdl-textfield__label" for="user">Seu telefone</label>
 						<span class="mdl-textfield__error">Apenas números</span>
 					</div>
