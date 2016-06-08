@@ -1,4 +1,10 @@
-<a href="index.php" class="menu-logo"><div class="mdl-layout__header-row"></div></a>
+<a href="index.php" class="menu-logo">
+    <div class="mdl-layout__header-row">
+        <span class="mdl-spacer">
+            <button class="btn-login" id="btLogin">Login</button>
+        </span>
+    </div>
+</a>
 
 <div class="mdl-layout__header-row menu-row">            
     <nav class="mdl-navigation">		
