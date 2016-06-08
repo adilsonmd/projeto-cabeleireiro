@@ -7,9 +7,8 @@
     background-position: center;
 }
 .menu-row {
-    /*justify-content: center;
+    justify-content: center;
     text-align: center;
-    */
 }
 .mdl-button {
     text-transform: capitalize;
