@@ -12,11 +12,11 @@
 }
 
 .mdl-grid {
-        margin: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
 }
 
 .mdl-layout__content {
-    background-color: bisque;
+    background-color: #fafafa;
     border: 1px burlywood solid;
 }
 
