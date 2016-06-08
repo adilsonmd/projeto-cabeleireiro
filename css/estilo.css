@@ -1,11 +1,10 @@
 .menu-logo {
     min-height: 130px;
     background-color: #fff;
-    background-image: url('../imagens/logo-beta.jpg');
-    background-size: 35%;
+    background-image: url('../imagens/logo-beta-3.jpg');
+    background-size: 40%;
     background-position: center;
     background-repeat: no-repeat;
-	
 }
 .menu-row {
     justify-content: center;
