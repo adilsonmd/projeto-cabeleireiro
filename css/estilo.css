@@ -1,7 +1,8 @@
 .menu-logo {
     min-height: 130px;
     background-color: #fff;
-    background: url('../imagens/logo-beta-3.jpg') 40% no-repeat;
+    background-image: url('../imagens/logo-beta-3.jpg');
+    background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
