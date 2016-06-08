@@ -31,10 +31,12 @@
 
 <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <?php 
-        include("menu.php");
-        ?>
-        
+        <header class="mdl-layout__header">
+            <?php 
+            include("menu.php");
+            ?>
+        </header>
+
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title">Categorias</span>
             <nav class="mdl-navigation">
