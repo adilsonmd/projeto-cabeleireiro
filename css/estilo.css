@@ -10,10 +10,11 @@
 .menu-row {
     justify-content: center;
 }
-.mdl-layout__content {
+
+/*.mdl-layout__content {
     background-color: bisque;
     border: 1px burlywood solid;
-}
+}*/
 
 .mdl-grid {
     margin: 10px 0 10px 0;
