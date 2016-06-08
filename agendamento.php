@@ -29,9 +29,12 @@
 
 	<body>
 		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-            <?php 
-            include("menu.php");
-            ?>
+			<header class="mdl-layout__header">
+           		<?php 
+           		include("menu.php");
+           		?>
+        	</header>
+
 
 			<div class="mdl-grid">
 				<div class="mdl-cell mdl-cell--2-col"></div> <!-- Espaçamento -->

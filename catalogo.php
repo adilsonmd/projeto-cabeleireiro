@@ -35,18 +35,17 @@
             <?php 
             include("menu.php");
             ?>
+            <div class="mdl-layout__drawer">
+                <span class="mdl-layout-title">Categorias</span>
+                <nav class="mdl-navigation">
+                    <a href="#" class="mdl-navigation__link">Cortes</a>
+                    <a href="#" class="mdl-navigation__link">Hidratação</a>
+                    <a href="#" class="mdl-navigation__link">Alisamento</a>
+                    <a href="#" class="mdl-navigation__link">Coloração</a>
+                </nav>
+            </div>
         </header>
 
-        <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">Categorias</span>
-            <nav class="mdl-navigation">
-                <a href="#" class="mdl-navigation__link">Cortes</a>
-                <a href="#" class="mdl-navigation__link">Hidratação</a>
-                <a href="#" class="mdl-navigation__link">Alisamento</a>
-                <a href="#" class="mdl-navigation__link">Coloração</a>
-            </nav>
-        </div>	
-        
         <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--2-col-desktop mdl-cel--hide-phone"></div> <!-- Espaçamento -->
                 

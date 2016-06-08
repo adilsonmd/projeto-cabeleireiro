@@ -15,9 +15,12 @@
 
 	<body>
 		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-            <?php 
-            include("menu.php");
-            ?>
+			<header class="mdl-layout__header">
+				<?php 
+				include("menu.php");
+				?>
+        	</header>
+
 
 			<div id="content" class="mdl-layout__content">
 				<h3 class="mdl-layout__title">Página inicial</h3>
