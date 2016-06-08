@@ -47,7 +47,7 @@
 					<div class="mdl-textfield mdl-js-textfield">
 						<input class="mdl-textfield__input" type="text" id="telefone" pattern="[\(]\d{2}[\)]\d{4}[\-]\d{4}">
 						<label class="mdl-textfield__label" for="user">Seu telefone</label>
-						<span class="mdl-textfield__error">Apenas números</span>
+						<span class="mdl-textfield__error">Preencha corretamente</span>
 					</div>
 				</div>
 
