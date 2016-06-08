@@ -12,16 +12,17 @@
 		<link rel="stylesheet" href="css/estilo.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="js/jquery.mask.js"></script>
+		<!-- <script src="js/jquery.mask.js"></script> -->
 
 		<script>
-
+		/*
 		var options =  {onKeyPress: function(tel, e, field, options){
 			var masks = ['(00)0000-0000'];
 			$('#telefonep').mask(masks, options);
 		}};
 
 		$('#telefone').mask('(00)0000-0000', options);
+		*/
 		</script>
 
 	</head>
@@ -44,7 +45,7 @@
 					</div>
 
 					<div class="mdl-textfield mdl-js-textfield">
-						<input class="mdl-textfield__input" type="text" id="telefone" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}">
+						<input class="mdl-textfield__input" type="text" id="telefone" pattern="[\(]\d{2}[\)]\d{4}[\-]\d{4}">
 						<label class="mdl-textfield__label" for="user">Seu telefone</label>
 						<span class="mdl-textfield__error">Apenas números</span>
 					</div>
