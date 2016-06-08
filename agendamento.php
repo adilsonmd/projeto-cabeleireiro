@@ -28,12 +28,13 @@
 					<div class="mdl-textfield mdl-js-textfield">
 						<input class="mdl-textfield__input" type="text" id="user">
 						<label class="mdl-textfield__label" for="user">Seu nome</label>
-						<br>
+						<span class="mdl-textfield__error">Apenas letras e espaço</span>
+					</div>
 
+					<div class="mdl-textfield mdl-js-textfield">
 						<input class="mdl-textfield__input" type="text" id="telefone" pattern="[0-9]*">
 						<label class="mdl-textfield__label" for="user">Seu telefone</label>
 						<span class="mdl-textfield__error">Apenas números</span>
-
 					</div>
 				</div>
 
