@@ -10,7 +10,7 @@
         <a href="sobre.php" class="mdl-navigation__link">Sobre</a>
     </nav>
     <div class="mdl-layout-spacer"></div>
-    <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+    <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised">
         Login
     </button>
     

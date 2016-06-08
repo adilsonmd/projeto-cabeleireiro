@@ -12,6 +12,8 @@
 }
 .mdl-button {
     text-transform: capitalize;
+    color: white;
+    font-weight: bold;
 }
 .mdl-grid {
     margin: 10px 0 10px 0;
