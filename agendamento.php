@@ -51,11 +51,8 @@
 						<span class="mdl-textfield__error">Preencha corretamente</span>
 					</div>
 					<br>
-
-					<input type="calendar">
-					<br>
 					<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-					Agendar
+						Agendar
 					</button>
 				</div>
 
