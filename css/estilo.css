@@ -10,11 +10,8 @@
     justify-content: center;
     text-align: center;
 }
-.btn-login {
-    padding: 5px;
-    background-color: rgb(244,67,54);
-    color: white;
-    font-weight: bold;
+.mdl-button {
+    text-transform: capitalize;
 }
 .mdl-grid {
     margin: 10px 0 10px 0;

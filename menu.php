@@ -1,8 +1,5 @@
 <a href="index.php" class="menu-logo">
-    <div class="mdl-layout__header-row">
-        <span class="mdl-spacer">
-            <button class="btn-login" id="btLogin">Login</button>
-        </span>
+    <div class="mdl-layout__header-row">      
     </div>
 </a>
 
@@ -12,4 +9,9 @@
         <a href="agendamento.php" class="mdl-navigation__link">Agendamento</a>
         <a href="sobre.php" class="mdl-navigation__link">Sobre</a>
     </nav>
+    <div class="mdl-layout-spacer"></div>
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
+        Login
+    </button>
+    
 </div>
