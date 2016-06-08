@@ -26,7 +26,7 @@
 				<div id="content" class="mdl-cell mdl-cell--8-col mdl-layout__content"> <!-- Conteúdo -->
 					<h3>Marque um horário</h3>
 					<div class="mdl-textfield mdl-js-textfield">
-						<input class="mdl-textfield__input" type="text" id="user">
+						<input class="mdl-textfield__input" type="text" id="user" pattern="[A-Z,a-z, ]*">
 						<label class="mdl-textfield__label" for="user">Seu nome</label>
 						<span class="mdl-textfield__error">Apenas letras e espaço</span>
 					</div>
