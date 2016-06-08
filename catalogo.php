@@ -46,7 +46,7 @@
         </div>	
         
         <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--2-col-desktop"></div> <!-- Espaçamento -->
+            <div class="mdl-cell mdl-cell--2-col-desktop mdl-cel--hide-phone"></div> <!-- Espaçamento -->
                 
             <div class="mdl-cell mdl-cell--3-col-desktop img-cell">imagem <!-- conteúdo --></div>
                 
@@ -58,7 +58,7 @@
         </div>
 
         <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--2-col-desktop"></div> <!-- Espaçamento -->
+            <div class="mdl-cell mdl-cell--2-col-desktop mdl-cel--hide-phone"></div> <!-- Espaçamento -->
                 
             <div class="mdl-cell mdl-cell--3-col-desktop img-cell">imagem <!-- conteúdo --></div>
                 
@@ -70,7 +70,7 @@
         </div>
 
         <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--2-col-desktop"></div> <!-- Espaçamento -->
+            <div class="mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-phone"></div> <!-- Espaçamento -->
                 
             <div class="mdl-cell mdl-cell--3-col-desktop img-cell">imagem <!-- conteúdo --></div>
                 

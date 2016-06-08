@@ -1,6 +1,7 @@
 <header class="mdl-layout__header">
-    <a href="index.php"><div class="mdl-layout__header-row menu-logo"></div></a>
-    
+    <span class="mdl-layout__title">
+        <a href="index.php"><div class="mdl-layout__header-row menu-logo"></div></a>
+    </span>
     <div class="mdl-layout__header-row menu-row">            
         <nav class="mdl-navigation">		
             <a href="catalogo.php" class="mdl-navigation__link">Catálogo</a>
