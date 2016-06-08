@@ -2,8 +2,9 @@
     min-height: 130px;
     background-color: #fff;
     background: url('../imagens/logo-beta-3.jpg') 40% no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-position: center;
+    max-height: 200px;
 }
 .menu-row {
     justify-content: center;
