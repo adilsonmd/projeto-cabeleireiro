@@ -17,6 +17,7 @@
 
 .mdl-layout__content {
     background-color: #fafafa;
-    border: 1px burlywood solid;
+    border: 1px black solid;
+    padding: 5px;
 }
 
