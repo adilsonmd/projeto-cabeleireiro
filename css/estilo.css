@@ -10,6 +10,26 @@
 .menu-row {
     justify-content: center;
 }
+.mdl-layout__content {
+    background-color: bisque;
+    border: 1px burlywood solid;
+}
+
 .mdl-grid {
-    margin: auto 0 auto 0;
+    margin: 10px 0 10px 0;
+}
+.mdl-cell {
+    box-sizing: border-box;
+    background-color: #fcfcfc;
+    height: 100px;
+    padding-left: 8px;
+    padding-top: 4px;
+    color: black;
+}
+.mdl-grid:first-of-type .mdl-cell {
+    height: 50px;
+}
+.img-cell{
+    background-color: #ccc;
+    color: black;
 }

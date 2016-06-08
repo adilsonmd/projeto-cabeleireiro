@@ -18,8 +18,22 @@
 		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
             <?php 
             include("menu.php");
-            ?>	
-					
+            ?>
+
+			<div class="mdl-grid">
+				<div class="mdl-cell mdl-cell--2-col"></div> <!-- Espaçamento -->
+				
+				<div id="content" class="mdl-cell mdl-cell--8-col mdl-layont__content"> <!-- Conteúdo -->
+					<h3>Marque um horário</h3>
+					<div class="mdl-textfield mdl-js-textfield">
+						<input class="mdl-textfield__input" type="text" id="user">
+						<label class="mdl-textfield__label" for="user">User name</label>
+					</div>
+				</div>
+
+				<div class="mdl-cell mdl-cell--2-col"></div> <!-- Espaçamento -->
+			</div>
+
 			<?php
             include("footer.html");
 			?>
