@@ -42,6 +42,10 @@
 				<div id="content" class="mdl-cell mdl-cell--8-col mdl-layout__content"> <!-- Conteúdo -->
 
 					<h3 class="mdl-layout__title">Marque um horário</h3>
+					<div id="info" class="icon material-icons">help_outline</div>
+						<div class="mdl-tooltip--large" for="tt1">
+						Ligaremos para você para confirmar a visita 1 dia antes
+						</div>
 					<form action="" method="GET">
 						<div class="mdl-textfield mdl-js-textfield">
 							<input class="mdl-textfield__input" type="text" id="user" pattern="[A-Z,a-z,\ ]*">
