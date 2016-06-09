@@ -43,7 +43,7 @@
 
 					<h3 class="mdl-layout__title">Marque um horário</h3>
 					<div id="info" class="icon material-icons">help_outline</div>
-						<div class="mdl-tooltip--large" for="tt1">
+						<div class="mdl-tooltip--large" for="info">
 						Ligaremos para você para confirmar a visita 1 dia antes
 						</div>
 					<form action="" method="GET">
