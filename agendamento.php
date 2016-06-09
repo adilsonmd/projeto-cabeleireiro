@@ -44,12 +44,14 @@
 				<div class="mdl-cell mdl-cell--2-col"></div> <!-- Espaçamento -->
 				
 				<div id="content" class="mdl-cell mdl-cell--8-col mdl-layout__content"> <!-- Conteúdo -->
-
-					<h3 class="mdl-layout__title">Marque um horário</h3>
-					<div id="info" class="icon material-icons">help_outline</div>
+						<!-- Tooltip -->
+						<div id="info" class="icon material-icons">help_outline</div>
 						<div class="mdl-tooltip mdl-tooltip--large" for="info">
-						Ligaremos para você para confirmar a visita 1 dia antes
+							Ligaremos para você para confirmar a visita 1 dia antes
 						</div>
+						<!-- =/= -->
+					<h3 class="mdl-layout__title">Marque um horário</h3>
+						
 					<form action="" method="GET">
 						<div class="mdl-textfield mdl-js-textfield">
 							<input class="mdl-textfield__input" type="text" id="user" pattern="[A-Z,a-z,\ ]*">
