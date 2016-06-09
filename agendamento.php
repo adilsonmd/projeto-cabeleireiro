@@ -24,7 +24,11 @@
 		$('#telefone').mask('(00)00000-0000', options);
 		
 		</script>
-
+		<style>
+			#info {
+				float: right;
+			}	
+		</style>
 	</head>
 
 	<body>
@@ -43,7 +47,7 @@
 
 					<h3 class="mdl-layout__title">Marque um horário</h3>
 					<div id="info" class="icon material-icons">help_outline</div>
-						<div class="mdl-tooltip--large" for="info">
+						<div class="mdl-tooltip mdl-tooltip--large" for="info">
 						Ligaremos para você para confirmar a visita 1 dia antes
 						</div>
 					<form action="" method="GET">
