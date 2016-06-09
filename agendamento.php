@@ -17,11 +17,11 @@
 		<script>
 		
 		var options =  {onKeyPress: function(tel, e, field, options){
-			var masks = ['(00)0000-0000'];
+			var masks = ['(00)00000-0000'];
 			$('#telefonep').mask(masks, options);
 		}};
 
-		$('#telefone').mask('(00)0000-0000', options);
+		$('#telefone').mask('(00)00000-0000', options);
 		
 		</script>
 
@@ -44,13 +44,13 @@
 					<h3 class="mdl-layout__title">Marque um horário</h3>
 					<form action="" method="GET">
 						<div class="mdl-textfield mdl-js-textfield">
-							<input class="mdl-textfield__input" type="text" id="user" pattern="[A-Z,a-z, ]*">
+							<input class="mdl-textfield__input" type="text" id="user" pattern="[A-Z,a-z,\ ]*">
 							<label class="mdl-textfield__label" for="user">Seu nome</label>
 							<span class="mdl-textfield__error">Apenas letras e espaço</span>
 						</div>
 
 						<div class="mdl-textfield mdl-js-textfield">
-							<input class="mdl-textfield__input" type="text" id="telefone" pattern="[\(]\d{2}[\)]\d{4}[\-]\d{4}">
+							<input class="mdl-textfield__input" type="text" id="telefone" pattern="[\(]\d{2}[\)]\d{5}[\-]\d{4}">
 							<label class="mdl-textfield__label" for="user">Seu telefone</label>
 							<span class="mdl-textfield__error">Preencha corretamente</span>
 						</div>
