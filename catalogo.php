@@ -25,10 +25,10 @@
         .img-cell{
            background-color: #ccc;
            color: white; 
+           
         }
 
         #img1 {
-            background-image: url("imagens/catalogo/corte1.jpg"); 
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -46,7 +46,7 @@
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title">Categorias</span>
             <nav class="mdl-navigation">
-                <a href="#" class="mdl-navigation__link">Cortes</a>
+                <a href="#" class="mdl-navigation__link" onclick="pag()">Cortes</a>
                 <a href="#" class="mdl-navigation__link">Hidratação</a>
                 <a href="#" class="mdl-navigation__link">Alisamento</a>
                 <a href="#" class="mdl-navigation__link">Coloração</a>
@@ -56,11 +56,11 @@
         <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-phone"></div> <!-- Espaçamento -->
                 
-            <div class="mdl-cell mdl-cell--3-col-desktop img-cell" id="img1">imagem <!-- conteúdo --></div>
+            <div class="mdl-cell mdl-cell--3-col-desktop img-cell" id="img1"><img src="imagens/catalogo/corte1.jpg"><!-- conteúdo --></div>
                 
-            <div class="mdl-cell mdl-cell--3-col-desktop img-cell">imagem</div> <!-- Espaçamento -->
+            <div class="mdl-cell mdl-cell--3-col-desktop img-cell" id="img1"><img src="imagens/catalogo/corte2.jpg"></div> <!-- Espaçamento -->
                 
-            <div class="mdl-cell mdl-cell--3-col-desktop img-cell">imagem</div> <!-- Espaçamento -->
+            <div class="mdl-cell mdl-cell--3-col-desktop img-cell" id="img1"><img src="imagens/catalogo/corte2.jpg"></div> <!-- Espaçamento -->
 
             <div class="mdl-cell mdl-cell--1-col-desktop mdl-cell--hide-phone"></div>
         </div>
