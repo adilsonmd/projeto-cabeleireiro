@@ -34,10 +34,11 @@
             <div class="mdl-grid">
                 <div class="mdl-cell mdl-cell--2-col-desktop"></div> <!-- Espaçamento -->
                 
-                <div id="div-img-loja">
-                        <img src="imagens/loja.jpg" alt="loja" id="img-loja"/>
-                </div>
+               
                 <div id="content" class="mdl-cell mdl-cell--8-col mdl-layout__content"> <!-- conteúdo -->
+                    <div id="div-img-loja">
+                        <img src="imagens/loja.jpg" alt="loja" id="img-loja"/>
+                    </div>  
                     <h3 class="mdl-layout__title">Conheça a gente!</h3>
                     <ul class="mdl-list">
                         <li class="mdl-list__item">Telefone: (13) 3482-8123</li>
