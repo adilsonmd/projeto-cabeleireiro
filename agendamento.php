@@ -67,9 +67,29 @@
 						<br>
 						<div class="">
 							<label for="calendario">Escolha uma data</label>
-							<input type="date" name="calendario" id="calendario"/>
+							<input type="date" name="calendario" min="01/01/2016" max="31/12/2020" id="calendario"/>
 						</div>
 						<br>
+
+						<div class="">
+						<input list=languages>
+						<datalist id=languages>
+							<option value="8:00"></option>
+							<option value="9:00"></option>
+							<option value="10:00"></option>
+							<option value="11:00"></option>
+							<option value="12:00"></option>
+							<option value="13:00"></option>
+							<option value="14:00"></option>
+							<option value="15:00"></option>
+							<option value="16:00"></option>
+							<option value="17:00"></option>
+							<option value="18:00"></option>
+							<option value="19:00"></option>
+						</datalist>
+						</div>
+						<br>
+
 						<button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
 							Continuar
 						</button>
@@ -86,3 +106,96 @@
 		
 	</body>
 </html>
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link id="themecss" rel="stylesheet" type="text/css" href="//www.shieldui.com/shared/components/latest/css/light/all.min.css" />
+    <script type="text/javascript" src="//www.shieldui.com/shared/components/latest/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="//www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
+</head>
+<body class="theme-light">
+<div>
+    <div class="outerDiv">
+        <div class="innerDiv">
+            <label for="comboBoxTech">Select technology</label>
+            <br />
+            <input id="comboBoxTech" />
+            <br />
+            <label for="comboBoxYears">Select your experience</label>
+            <br />
+            <input id="comboBoxYears" />
+            <br />
+            <button id="submit">Submit</button>
+        </div>
+        <div class="imageDiv">
+            <img class="img-responsive" src="/Content/img/combobox/codesnippet.png" />
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var technologies = ['ASP.NET', 'WPF', 'WCF', 'Java', 'J2EE', 'JavaScript', 'JQuery', 'ActionScript', 'OpenGL', 'PHP'];
+    var years = ['1', '2', '3', '4', '5', '7', '10', '12', '15', '20', '28'];
+    jQuery(function ($) {
+        $("#comboBoxTech").shieldComboBox({
+            dataSource: {
+                data: technologies
+            },
+            autoComplete: {
+                enabled: true
+            }
+        });
+        $("#comboBoxYears").shieldComboBox({
+            dataSource: {
+                data: years
+            }
+        });
+        $("#submit").shieldButton({
+            events: {
+                click: function () {
+                    var technology = $("#comboBoxTech").swidget().value();
+                    var years = $("#comboBoxYears").swidget().value();
+                    alert("You selected: \n Technology: " + technology + "\n Years: " + years);
+                }
+            }
+        });
+    });
+</script>
+<style>
+    .outerDiv
+    {
+        max-width: 600px;
+        content: ".";
+        display: block;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .innerDiv
+    {
+        display: inline-block;
+        margin: 10px;
+    }
+    .innerDiv label
+    {
+        font-style: italic;
+        font-size: 1.1em;
+    }
+    .imageDiv
+    {
+        display: inline-block;
+        max-width: 300px;
+        margin: 10px;
+    }
+    .innerDiv .sui-combobox
+    {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+</style>
+</body>
+</html>
+-->
