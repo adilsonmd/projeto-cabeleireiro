@@ -12,6 +12,9 @@
         <link rel="stylesheet" href="css/estilo.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
+            #content {
+            	overflow: none;
+            }
             #div-img-loja {
                 float: right;
                 display: inline;
