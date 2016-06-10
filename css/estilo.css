@@ -3,7 +3,7 @@
     background-color: #fff;
     background-image: url('../imagens/logo-beta-3.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 .menu-row {
