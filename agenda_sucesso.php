@@ -27,7 +27,7 @@
                 $nome = $_GET['nome'];
                 $telefone = $_GET['tel'];
 
-                $arrNome = split(" ", Snome);
+                $arrNome = split(" ", $nome);
                 $priNome = $arrNome[0];
 
            		?>
@@ -38,7 +38,7 @@
 				<div id="content" class="mdl-cell mdl-cell--8-col mdl-layout__content"> <!-- Conteúdo -->
 
                     <h3 class="mdl-layout__title" id="sucesso">Horário agendado!</h3>
-					<p><?php echo $priNome; ?></p>
+					<p id="sucesso"><?php echo $priNome; ?></p>
 						
 				</div>
 				<div class="mdl-cell mdl-cell--2-col"></div> <!-- Espaçamento -->
