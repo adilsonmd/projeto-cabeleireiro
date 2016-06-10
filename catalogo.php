@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         
-        .mdl-cell {
+        .mdl-cell, img {
             box-sizing: border-box;
             background-color: #fcfcfc;
             height: 210px;
@@ -27,10 +27,13 @@
            color: white; 
            
         }
-
+        img { 
+            padding: 0;
+        }
         #img1 {
+
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: inherit;
             background-position: center;
         }
     </style>
