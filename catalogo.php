@@ -26,6 +26,10 @@
            background-color: #ccc;
            color: white; 
         }
+
+        #img1 {
+            background-image: url("imagens/catalogo/corte1.jpg"); 
+        }
     </style>
 </head>
 
@@ -49,7 +53,7 @@
         <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-phone"></div> <!-- Espaçamento -->
                 
-            <div class="mdl-cell mdl-cell--3-col-desktop img-cell">imagem <!-- conteúdo --></div>
+            <div class="mdl-cell mdl-cell--3-col-desktop img-cell" id="img1">imagem <!-- conteúdo --></div>
                 
             <div class="mdl-cell mdl-cell--3-col-desktop img-cell">imagem</div> <!-- Espaçamento -->
                 

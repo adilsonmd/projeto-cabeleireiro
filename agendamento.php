@@ -52,16 +52,16 @@
 						<!-- =/= -->
 					<h3 class="mdl-layout__title">Marque um horário</h3>
 						
-					<form action="" method="GET">
+					<form action="agenda_sucesso.php" method="GET">
 						<div class="mdl-textfield mdl-js-textfield">
-							<input class="mdl-textfield__input" type="text" id="user" pattern="[A-Z,a-z,\ ]*">
+							<input class="mdl-textfield__input" type="text" name="nome" id="user" pattern="[A-Z,a-z, ]*">
 							<label class="mdl-textfield__label" for="user">Seu nome</label>
 							<span class="mdl-textfield__error">Apenas letras e espaço</span>
 						</div>
 
 						<div class="mdl-textfield mdl-js-textfield">
-							<input class="mdl-textfield__input" type="text" id="telefone" pattern="[\(]\d{2}[\)]\d{5}[\-]\d{4}">
-							<label class="mdl-textfield__label" for="user">Seu telefone</label>
+							<input class="mdl-textfield__input" type="text" name="tel" id="telefone" pattern="[\(]\d{2}[\)]\d{5}[\-]\d{4}">
+							<label class="mdl-textfield__label" for="telefone">Seu telefone</label>
 							<span class="mdl-textfield__error">Preencha corretamente</span>
 						</div>
 						<br>
