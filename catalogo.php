@@ -30,7 +30,8 @@
         #img1 {
             background-image: url("imagens/catalogo/corte1.jpg"); 
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
+            background-position: center;
         }
     </style>
 </head>
