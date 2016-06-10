@@ -10,6 +10,10 @@
 		<script defer src="mdl/material.min.js"></script>
 		<link rel="stylesheet" href="css/estilo.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<script src="dialog-polyfill.js"></script>
+  		<link rel="stylesheet" type="text/css" href="dialog-polyfill.css" />
+  		
 		<script>
 			$(windows).ready(function() {
 				var snackbarContainer = $('#demo-toast-example');
@@ -23,6 +27,18 @@
 	</head>
 
 	<body>
+		<dialog>
+		    I'm a dialog!
+		    <form method="dialog">
+		      <input type="submit" value="Close" />
+		    </form>
+		  </dialog>
+		  <script>
+		    var dialog = document.querySelector('dialog');
+		    dialogPolyfill.registerDialog(dialog);
+		    // Now dialog acts like a native <dialog>.
+		    dialog.showModal();
+		  </script>
 		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 			<header class="mdl-layout__header">
 				<?php 
