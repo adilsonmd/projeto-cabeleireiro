@@ -37,7 +37,7 @@
                
                 <div id="content" class="mdl-cell mdl-cell--8-col mdl-layout__content"> <!-- conteúdo -->
                     <div id="div-img-loja">
-                        <img src="imagens/loja.jpg" alt="loja" id="img-loja"/>
+                        <img src="imagens/loja.jpg" alt="loja" id="img-loja" width="500" height="280"/>
                     </div>  
                     <h3 class="mdl-layout__title">Conheça a gente!</h3>
                     <ul class="mdl-list">
