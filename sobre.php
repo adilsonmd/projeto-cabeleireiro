@@ -16,7 +16,7 @@
                 float: right;
             }
             #img-loja {
-                size: 60%;
+                size: 30%;
             }
         </style>
     </head>
