@@ -14,13 +14,13 @@
         .mdl-cell {
             box-sizing: border-box;
             background-color: #fcfcfc;
-            height: 100px;
+            height: 210px;
             padding-left: 8px;
             padding-top: 4px;
             color: black;
         }
         .mdl-grid:first-of-type .mdl-cell {
-            height: 100px;
+            height: 210px;
         }
         .img-cell{
            background-color: #ccc;
