@@ -20,7 +20,7 @@
             color: black;
         }
         .mdl-grid:first-of-type .mdl-cell {
-            height: 50px;
+            height: 100px;
         }
         .img-cell{
            background-color: #ccc;
