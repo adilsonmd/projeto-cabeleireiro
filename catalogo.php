@@ -76,7 +76,7 @@
                 
             <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img src="imagens/catalogo/corte5.jpg" id="img1"></div> <!-- Espaçamento -->
                 
-            <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img src="imagens/catalogo/corte1.jpg" id="img1"></div> <!-- Espaçamento -->
+            <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img src="imagens/catalogo/corte6.jpg" id="img1"></div> <!-- Espaçamento -->
 
             <div class="mdl-cell mdl-cell--1-col-desktop mdl-cell--hide-phone"></div> <!-- Espaçamento -->
 

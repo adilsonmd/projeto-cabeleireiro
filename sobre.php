@@ -17,7 +17,7 @@
                 display: inline;
             }
             img {
-                size: 30%;
+                background-size: 30%;
 
             }
         </style>
