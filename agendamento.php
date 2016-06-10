@@ -28,6 +28,7 @@
 		
 		</script>
 		
+		<!--
 		<script>
 			var horarios = ['8:00', '9:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00'];
 			
@@ -42,6 +43,7 @@
 				});
 			});
 		</script>
+		-->
 		<style>
 			#info {
 				float: right;
@@ -90,9 +92,20 @@
 						<br>
 
 						<div class="">
-							<label for="comboHorario">Escolha um horário</label>
-							<br>
-							<input id="comboHorario" />
+							<select>
+								<option>8:00</option>
+								<option>9:00</option>
+								<option>10:00</option>
+								<option>11:00</option>
+								<option>12:00</option>
+								<option>13:00</option>
+								<option>14:00</option>
+								<option>15:00</option>
+								<option>16:00</option>
+								<option>17:00</option>
+								<option>18:00</option>
+								<option>19:00</option>
+							</select>	
 							
 						</div>
 						<br>
@@ -113,21 +126,6 @@
 		
 	</body>
 </html>
-<script>
-    var horarios = ['8:00', '9:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00'];
-    
-    jQuery(function ($) {
-        $("#comboHorario").shieldComboBox({
-            dataSource: {
-                data: horarios
-            },
-            autoComplete: {
-                enabled: true
-            }
-        });
-    });
-</script>
-        
 <!--
     <link id="themecss" rel="stylesheet" type="text/css" href="//www.shieldui.com/shared/components/latest/css/light/all.min.css" />
     <script type="text/javascript" src="//www.shieldui.com/shared/components/latest/js/jquery-1.11.1.min.js"></script>
