@@ -23,7 +23,7 @@
             height: 210px;
         }
         .img-cell{
-           background-color: #ccc;
+           background-color: transparent;
            color: white; 
            
         }
