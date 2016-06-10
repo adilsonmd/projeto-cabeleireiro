@@ -13,10 +13,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="js/jquery.mask.js"></script>
-    	<link id="themecss" rel="stylesheet" type="text/css" href="//www.shieldui.com/shared/components/latest/css/light/all.min.css" />
-    	<script type="text/javascript" src="//www.shieldui.com/shared/components/latest/js/jquery-1.11.1.min.js"></script>
-    	<script type="text/javascript" src="//www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
-		
+    
 		<script>
 		
 		var options =  {onKeyPress: function(tel, e, field, options){
@@ -28,22 +25,6 @@
 		
 		</script>
 		
-		<!--
-		<script>
-			var horarios = ['8:00', '9:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00'];
-			
-			jQuery(function ($) {
-				$("#comboHorario").shieldComboBox({
-					dataSource: {
-						data: horarios
-					},
-					autoComplete: {
-						enabled: true
-					}
-				});
-			});
-		</script>
-		-->
 		<style>
 			#info {
 				float: right;
@@ -86,13 +67,14 @@
 						</div>
 						<br>
 						<div class="">
-							<label for="calendario">Escolha uma data</label>
+							<label for="calendario mdl-textfield__label">Escolha uma data</label>
 							<input type="date" name="calendario" min="01/01/2016" max="31/12/2020" id="calendario"/>
 						</div>
 						<br>
 
 						<div class="">
 							<select>
+								<option>Escolha um horário</option>
 								<option>8:00</option>
 								<option>9:00</option>
 								<option>10:00</option>
