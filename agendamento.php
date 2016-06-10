@@ -46,7 +46,7 @@
 				<div id="content" class="mdl-cell mdl-cell--8-col mdl-layout__content"> <!-- Conteúdo -->
 						<!-- Tooltip -->
 						<div id="info" class="icon material-icons">help_outline</div>
-						<div class="mdl-tooltip mdl-tooltip--large" for="info">
+						<div class="mdl-tooltip mdl-tooltip--large mdl-tooltip--left" for="info">
 							Ligaremos para você para confirmar a visita 1 dia antes
 						</div>
 						<!-- =/= -->
@@ -65,7 +65,11 @@
 							<span class="mdl-textfield__error">Preencha corretamente</span>
 						</div>
 						<br>
-						
+						<div class="">
+							<label for="calendario">Escolha uma data</label>
+							<input type="date" name="calendario" id="calendario"/>
+						</div>
+						<br>
 						<button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
 							Continuar
 						</button>
