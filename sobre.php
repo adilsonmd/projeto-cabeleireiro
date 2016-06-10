@@ -15,8 +15,9 @@
             #div-img-loja {
                 float: right;
             }
-            #img-loja {
+            img {
                 size: 30%;
+                
             }
         </style>
     </head>
