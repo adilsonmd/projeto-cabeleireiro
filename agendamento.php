@@ -13,7 +13,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="js/jquery.mask.js"></script>
-
+    	<link id="themecss" rel="stylesheet" type="text/css" href="//www.shieldui.com/shared/components/latest/css/light/all.min.css" />
+    	<script type="text/javascript" src="//www.shieldui.com/shared/components/latest/js/jquery-1.11.1.min.js"></script>
+    	<script type="text/javascript" src="//www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
+		
 		<script>
 		
 		var options =  {onKeyPress: function(tel, e, field, options){
@@ -23,6 +26,21 @@
 
 		$('#telefone').mask('(00)00000-0000', options);
 		
+		</script>
+		
+		<script>
+			var horarios = ['8:00', '9:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00'];
+			
+			jQuery(function ($) {
+				$("#comboHorario").shieldComboBox({
+					dataSource: {
+						data: horarios
+					},
+					autoComplete: {
+						enabled: true
+					}
+				});
+			});
 		</script>
 		<style>
 			#info {
@@ -72,21 +90,10 @@
 						<br>
 
 						<div class="">
-						<input list=languages>
-						<datalist id=languages>
-							<option value="8:00"></option>
-							<option value="9:00"></option>
-							<option value="10:00"></option>
-							<option value="11:00"></option>
-							<option value="12:00"></option>
-							<option value="13:00"></option>
-							<option value="14:00"></option>
-							<option value="15:00"></option>
-							<option value="16:00"></option>
-							<option value="17:00"></option>
-							<option value="18:00"></option>
-							<option value="19:00"></option>
-						</datalist>
+							<label for="comboHorario">Escolha um horário</label>
+							<br>
+							<input id="comboHorario" />
+							
 						</div>
 						<br>
 
@@ -106,34 +113,32 @@
 		
 	</body>
 </html>
-
+<script>
+    var horarios = ['8:00', '9:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00'];
+    
+    jQuery(function ($) {
+        $("#comboHorario").shieldComboBox({
+            dataSource: {
+                data: horarios
+            },
+            autoComplete: {
+                enabled: true
+            }
+        });
+    });
+</script>
+        
 <!--
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
     <link id="themecss" rel="stylesheet" type="text/css" href="//www.shieldui.com/shared/components/latest/css/light/all.min.css" />
     <script type="text/javascript" src="//www.shieldui.com/shared/components/latest/js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="//www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
-</head>
-<body class="theme-light">
-<div>
-    <div class="outerDiv">
+
         <div class="innerDiv">
             <label for="comboBoxTech">Select technology</label>
             <br />
             <input id="comboBoxTech" />
             <br />
-            <label for="comboBoxYears">Select your experience</label>
-            <br />
-            <input id="comboBoxYears" />
-            <br />
-            <button id="submit">Submit</button>
         </div>
-        <div class="imageDiv">
-            <img class="img-responsive" src="/Content/img/combobox/codesnippet.png" />
-        </div>
-    </div>
 </div>
 <script type="text/javascript">
     var technologies = ['ASP.NET', 'WPF', 'WCF', 'Java', 'J2EE', 'JavaScript', 'JQuery', 'ActionScript', 'OpenGL', 'PHP'];
