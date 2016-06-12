@@ -59,10 +59,7 @@
         <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div> <!-- Espaçamento -->
                 
-            <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img src="imagens/catalogo/corte1.jpg" id="img1" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; this.value = 'Ocultar'; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none'; this.value = 'Mostrar'; }" />
-</div><div><div class="spoiler" style="display: none;">
-COLOQUE AQUI O CONTEÚDO QUE FICARÁ OCULTO
-</div>><!-- conteúdo --></div>
+            <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img src="imagens/catalogo/corte1.jpg" id="img1" ><!-- conteúdo --></div>
                 
             <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img src="imagens/catalogo/corte2.jpg" id="img1"></div> <!-- Espaçamento -->
                 
