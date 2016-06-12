@@ -4,6 +4,11 @@
 a{text-decoration:none;} /* Links sem efeitos */
 
 /* Carecteristicas de tudo que esta dentro da Div e com Link */
+.mdl-cell {
+    width: 397px;
+    height: 200px;
+}
+
 .mdl-cell ul li a{
     display: block;
     position: relative;
@@ -36,7 +41,7 @@ a{text-decoration:none;} /* Links sem efeitos */
     opacity: 1;
     background-color: #f8f8f8;
     -moz-opacity: 1;
-    filter: alpha(opacity=20);
+    filter: alpha(opacity=100);
 }
 
 
