@@ -80,7 +80,12 @@
             <div class="mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div> <!-- Espaçamento -->
                 
             <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img class="attachment-thumbnail wp-post-image" src="imagens/catalogo/corte4.jpg" id="img1">
-                <span class="tip">Corte 4 - massa.</span>
+                <ul>
+                    <li>
+                        <a href="#"><span class="tip">Corte 4 - massa.</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
                 
             <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img class="attachment-thumbnail wp-post-image" src="imagens/catalogo/corte5.jpg" id="img1">

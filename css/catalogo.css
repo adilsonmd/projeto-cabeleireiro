@@ -1,43 +1,30 @@
 
-* {
-    margin:0;
-    padding:0;
-    border:0;
-    list-style:none;
-    outline:none;
-} /* Fazendo reset */
-
-body {
-    font:normal 14px Tahoma, Arial, sans-serif;
-    color:#333;
-    background:#e5e5e5
-} /* Fonte normal tamanho 14 tenho Tahoma como fonte primaria */
-
-a{
-    text-decoration:none;
-} /* Links sem efeitos */
+*{margin:0;padding:0;border:0;list-style:none;outline:none;} /* Fazendo reset */
+body{font:normal 14px Tahoma, Arial, sans-serif;color:#333;background:#e5e5e5} /* Fonte normal tamanho 14 tenho Tahoma como fonte primaria */
+a{text-decoration:none;} /* Links sem efeitos */
 
 /* Carecteristicas da div. */
-.tip {
-    border: 1px solid transparent;
-    width: 55%;
-    height: 60%;
+.mdl-cell {
+border: 1px solid green;
+width: 55%;
+height: 60%;
+
 }
 /* Carecteristicas de tudo que esta dentro da Div e com Link */
-.tip{
-    display:block;
-    position:relative;
-    font-size:12px;
-    margin:0 auto;
-    padding: 10px;
-    float:left;
+.mdl-cell ul li a{
+display:block;
+position:relative;
+font-size:12px;
+margin:0 auto;
+padding: 10px;
+float:left;
 }
 
 /* Efeitos do texto */
-.tip {
+.mdl-cell ul li a span{
 display:block;
 padding:10px;
-color:#000;
+color:#f00;
 position:absolute;
 bottom:0;
 left:0;
@@ -50,7 +37,7 @@ filter:alpha(opacity=0);
 }
 
 /* Efeitos do texto quando o mouse estive em cima da Imagem */ 
-.tip:hover{
+.mdl-cell ul li:hover span{
 border: 1px solid f00;
 opacity:1;
 background-color: #f8f8f8;
@@ -59,18 +46,15 @@ filter:alpha(opacity=20);
 }
 
 
-/*
-#content ul li a img{ 
+
+.mdl-cell ul li a img{ /* Tamanho da imagem na DIV */
 width:320px;
 height:240px;
 
 }
-*/
 
-.tip { /* Espaço da mensagem que ira aparecer */
+.mdl-cell ul li a span{ /* Espa�o da mensagem que ira aparecer */
 width:300px;
 padding-bottom: 20px;
 padding-left: 20px;
 }
-
-
