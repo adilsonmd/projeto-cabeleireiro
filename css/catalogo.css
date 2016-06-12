@@ -3,52 +3,45 @@
 
 a{text-decoration:none;} /* Links sem efeitos */
 
-/* Carecteristicas da div. */
-.mdl-cell {
-border: none;
-width: 55%;
-height: 60%;
-}
-
 /* Carecteristicas de tudo que esta dentro da Div e com Link */
 .mdl-cell ul li a{
-display:block;
-position:relative;
-font-size:14px;
-margin:0 auto;
-padding: 10px;
-float:left;
+    display: block;
+    position: relative;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 10px;
+    float: left;
 }
 
 /* Efeitos do texto */
 .mdl-cell image ul li a span{
-display:block;
-padding:10px;
-font-weight: bold;
-color:#000;
-position:absolute;
-bottom:0;
-left:0;
--webkit-border-radius:0 0 5px 5px;
--moz-border-radius:0 0 5px 5px;
-border-radius:0 0 5px 5px;
-opacity:0;
--moz-opacity:0;
-filter:alpha(opacity=0);
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
 }
 
 /* Efeitos do texto quando o mouse estive em cima da Imagem */ 
 .mdl-cell image:hover ul li span{
-border: none;
-opacity:1;
-background-color: #f8f8f8;
--moz-opacity:1;
-filter:alpha(opacity=20);
+    border: none;
+    opacity: 1;
+    background-color: #f8f8f8;
+    -moz-opacity: 1;
+    filter: alpha(opacity=20);
 }
 
 
 .mdl-cell ul li a span{ /* Espa�o da mensagem que ira aparecer */
-width:397px;
-padding-bottom: 20px;
-padding-left: 20px;
+    width: 397px;
+    padding-bottom: 10px;
+    padding-left: 20px;
 }
