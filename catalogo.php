@@ -61,15 +61,15 @@
             <div class="mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div> <!-- Espaçamento -->
                 
             <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img class="attachment-thumbnail wp-post-image" src="imagens/catalogo/corte1.jpg" id="img1">
-                <span>Corte 1 - nice.</span>
+                <span class="tip">Corte 1 - nice.</span>
             </div>
                 
             <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img class="attachment-thumbnail wp-post-image" src="imagens/catalogo/corte2.jpg" id="img1">
-                <span>Corte 2 - pika.</span>
+                <span  class="tip">Corte 2 - pika.</span>
             </div>
                 
             <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img class="attachment-thumbnail wp-post-image" src="imagens/catalogo/corte3.jpg" id="img1">
-                <span>Corte 3 - zika.</span>
+                <span  class="tip">Corte 3 - zika.</span>
             </div>
 
             <div class="mdl-cell mdl-cell--1-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div> <!-- Espaçamento -->
@@ -80,15 +80,15 @@
             <div class="mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div> <!-- Espaçamento -->
                 
             <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img class="attachment-thumbnail wp-post-image" src="imagens/catalogo/corte4.jpg" id="img1">
-                <span>Corte 4 - massa.</span>
+                <span class="tip">Corte 4 - massa.</span>
             </div>
                 
             <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img class="attachment-thumbnail wp-post-image" src="imagens/catalogo/corte5.jpg" id="img1">
-                <span>Corte 5 - trem bão.</span>
+                <span class="tip">Corte 5 - trem bão.</span>
             </div>
                 
             <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img class="attachment-thumbnail wp-post-image" src="imagens/catalogo/corte6.jpg" id="img1">
-                <span>Corte 6 - bacana.</span>
+                <span class="tip">Corte 6 - bacana.</span>
             </div>
 
             <div class="mdl-cell mdl-cell--1-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div> <!-- Espaçamento -->

@@ -18,14 +18,13 @@ a{
 } /* Links sem efeitos */
 
 /* Carecteristicas da div. */
-#content {
+.tip {
     border: 1px solid transparent;
     width: 55%;
     height: 60%;
-
 }
 /* Carecteristicas de tudo que esta dentro da Div e com Link */
-#content ul li a{
+.tip{
     display:block;
     position:relative;
     font-size:12px;
@@ -35,10 +34,10 @@ a{
 }
 
 /* Efeitos do texto */
-#content ul li a span{
+.tip {
 display:block;
 padding:10px;
-color:#f00;
+color:#000;
 position:absolute;
 bottom:0;
 left:0;
@@ -51,7 +50,7 @@ filter:alpha(opacity=0);
 }
 
 /* Efeitos do texto quando o mouse estive em cima da Imagem */ 
-#content ul li:hover span{
+.tip:hover{
 border: 1px solid f00;
 opacity:1;
 background-color: #f8f8f8;
@@ -60,14 +59,15 @@ filter:alpha(opacity=20);
 }
 
 
-
-#content ul li a img{ /* Tamanho da imagem na DIV */
+/*
+#content ul li a img{ 
 width:320px;
 height:240px;
 
 }
+*/
 
-#content ul li a span{ /* Espaço da mensagem que ira aparecer */
+.tip { /* Espaço da mensagem que ira aparecer */
 width:300px;
 padding-bottom: 20px;
 padding-left: 20px;
