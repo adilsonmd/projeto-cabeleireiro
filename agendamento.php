@@ -18,7 +18,7 @@
 		
 		var options =  {onKeyPress: function(tel, e, field, options){
 			var masks = ['(00)00000-0000'];
-			$('#telefonep').mask(masks, options);
+			$('#telefone').mask(masks, options);
 		}};
 
 		$('#telefone').mask('(00)00000-0000', options);

@@ -62,6 +62,8 @@
             <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img class="attachment-thumbnail wp-post-image" src="imagens/catalogo/corte1.jpg" id="img1">
                 <span>Corte 1 - nice.</span>
             </div>
+            
+            <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img src="imagens/catalogo/corte1.jpg" id="img1" ><!-- conteúdo --></div>
                 
             <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img class="attachment-thumbnail wp-post-image" src="imagens/catalogo/corte2.jpg" id="img1">
                 <span>Corte 2 - pika.</span>
@@ -114,11 +116,3 @@
     
 </body>
 </html>
-<div id="content">
-        <ul>
-        <li >
-            <a href="#">
-                <img src="https://static.cineclick.com.br/sites/adm/uploads/banco_imagens/31/602x0_1439644246.jpg" class="attachment-thumbnail wp-post-image" alt="Imagem" title="" />                        
-                        <span>Mensagem que deve aparece com o mouse em cima.</span>
-                    </a>
-                </li>
