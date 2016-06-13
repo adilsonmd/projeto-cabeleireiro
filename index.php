@@ -35,10 +35,11 @@
                 background-size: auto;
                 background-repeat: no-repeat;
             }
-            .title-jumbo {
+            .mdl-layout__content, .title-jumbo {
             	font-weight: 900;
-            	font-family: 'Helvetica';
+            	font-family: 'Circular', Helvetica, Arial, sans-serif;
             	font-size: 48px;
+            	line-height: 1.2;
             	color: white;
             	background: transparent;
             	text-align: center;
@@ -63,7 +64,7 @@
           </header>
           <main>
           	<div class="mdl-layout__content">
-          		<h2 class="mdl-layout-title title-jumbo">Confira nosso catálogo e faça um agendamento, tudo online.</h2>
+          		<h2 class="title-jumbo">Confira nosso catálogo e faça um agendamento, tudo online.</h2>
           	</div>
           </main>
 	</body>
