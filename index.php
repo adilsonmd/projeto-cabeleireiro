@@ -7,7 +7,6 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 		<link rel="stylesheet" href="mdl/material.red-orange.min.css" />
-		<link rel="stylesheet" href="css/cabelo.css" />
 		<script defer src="mdl/material.min.js"></script>
 		<link rel="stylesheet" href="css/estilo.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,20 +16,23 @@
 	<body>
 	    <style>
             .demo-layout-transparent {
-              
-              background: -webkit-linear-gradient(-90deg, rgba(255,255,255,0.01) 0, rgba(255,34,10,0.51) 100%), url('../imagens/cabelo.jpg') center / cover;
-        	  background: -moz-linear-gradient(180deg, rgba(255,255,255,0.01) 0, rgba(255,34,10,0.51) 100%), url('../imagens/cabelo.jpg') center / cover;
-        	  background: linear-gradient(180deg, rgba(255,255,255,0.01) 0, rgba(255,34,10,0.51) 100%), url('../imagens/cabelo.jpg') center / cover;
+                background: -webkit-linear-gradient(-90deg, rgba(255,255,255,0.01) 0, rgba(255,34,10,0.51) 100%), url('../imagens/cabelo.jpg') center / cover;
+        	    background: -moz-linear-gradient(180deg, rgba(255,255,255,0.01) 0, rgba(255,34,10,0.51) 100%), url('../imagens/cabelo.jpg') center / cover;
+        	    background: linear-gradient(180deg, rgba(255,255,255,0.01) 0, rgba(255,34,10,0.51) 100%), url('../imagens/cabelo.jpg') center / cover;
             }
             .demo-layout-transparent .mdl-layout__header,
             .demo-layout-transparent .mdl-layout__drawer-button, .mdl-navigation .mdl-navigation__link {
               /* This background is dark, so we set text to white. Use 87% black instead if
                  your background is light. */
-              color: rgba(0,0,0,0.87);
+                color: rgba(0,0,0,0.87);
             }
             .mdl-navigation__link {
                 font-weight: 500;
                 font-size: 16px;
+            }
+            .mdl-layout-title {
+                background: url("imagens/capa.png") left / cover;
+                background-repeat: no-repeat;
             }
         </style>
         
