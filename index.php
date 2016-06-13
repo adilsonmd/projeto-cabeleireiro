@@ -28,7 +28,7 @@
 
 
 			<div class="bg-main hidden-xs">
-          <div class="bg-main-img lazy lazy-no-small" data-original="imagem/cabelo.jpg" style="display: block; background-image: url(&quot;//d2c87l0yth4zbw-2.global.ssl.fastly.net/i/home/bg-albums.png&quot;);"></div>
+          <div class="bg-main-img lazy lazy-no-small" data-original="imagens/cabelo.jpg" style="display: block; background-image: url(&quot;//d2c87l0yth4zbw-2.global.ssl.fastly.net/i/home/bg-albums.png&quot;);"></div>
       </div>
 
 			<?php
