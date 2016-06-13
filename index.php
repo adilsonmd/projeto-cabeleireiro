@@ -55,6 +55,9 @@
             }
             .mdl-button {
                 text-transform: capitalize;
+                font-weight: 600;
+                font-size: 16px;
+                padding: 3px 18px;
             }
         </style>
         
