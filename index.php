@@ -38,7 +38,7 @@
         </style>
         
 		<div class="demo-layout-transparent mdl-layout mdl-js-layout mdl-layout--fixed-header">
-          <header class="mdl-layout__header mdl-layout__header--transparent">
+          <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
               <!-- Title -->
               <span class="mdl-layout-title"></span>
