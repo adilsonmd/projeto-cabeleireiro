@@ -38,14 +38,14 @@
             .mdl-layout__content, .title-jumbo {
             	font-weight: 900;
             	border: none;
-            	font-family: 'Circular', Helvetica, Arial, sans-serif;
+            	font-family: Helvetica, Arial, sans-serif;
             	font-size: 64px;
             	line-height: 1.2;
             	color: white;
             	background: transparent;
             	text-align: center;
-            	margin-top: 200px;
-            	letter-spacing: -4px;
+            	margin-top: 100px;
+            	letter-spacing: -3px;
             	display: block;
             }
         </style>
