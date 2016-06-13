@@ -48,6 +48,9 @@
             	letter-spacing: -3px;
             	display: block;
             }
+            .mdl-button {
+                text-transform: capitalize;
+            }
         </style>
         
 		<div class="demo-layout-transparent mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -66,7 +69,11 @@
             </div>
           </header>
           <main>
-  		<h2 class="title-jumbo">Confira nosso catálogo e faça um agendamento, tudo online.</h2>
+  		    <h2 class="title-jumbo">Confira nosso catálogo e faça um agendamento, tudo online.</h2>
+            
+            <form action="catalogo.php">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Começar</button>
+            </form>
           </main>
 	</body>
 </html>
