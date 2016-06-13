@@ -18,8 +18,7 @@
 
 	<body>
 		
-<div class="bg-main">
-          </div>
+
     			<header class="mdl-layout__header">
 				<?php 
 				include("menu.php");
@@ -27,9 +26,8 @@
         	</header>
 
 
-			<div id="content" class="mdl-layout__content">
-				<h3 class="mdl-layout__title">Página inicial</h3>
-			</div>
+			<div class="bg-main">
+          </div>
 
 			<?php
             include("footer.html");
