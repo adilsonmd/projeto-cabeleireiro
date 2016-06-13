@@ -37,13 +37,14 @@
             }
             .mdl-layout__content, .title-jumbo {
             	font-weight: 900;
+            	border: none;
             	font-family: 'Circular', Helvetica, Arial, sans-serif;
             	font-size: 48px;
             	line-height: 1.2;
             	color: white;
             	background: transparent;
             	text-align: center;
-            	margin: 30px auto;
+            	margin: 100px auto;
             }
         </style>
         
