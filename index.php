@@ -44,13 +44,15 @@
             	color: white;
             	background: transparent;
             	text-align: center;
-            	margin-top: 100px;
+            	margin: 100px auto;
             	letter-spacing: -3px;
             	display: block;
             }
+            form {
+                margin: 0 auto;
+            }
             .mdl-button {
                 text-transform: capitalize;
-                margin: 0 auto;
             }
         </style>
         
@@ -73,7 +75,7 @@
   		    <h2 class="title-jumbo">Confira nosso catálogo e faça um agendamento, tudo online.</h2>
             
             <form action="catalogo.php">
-                <button class="mdl-button mdl-js-button mdl-button--colored">Começar</button>
+                <button class="mdl-button mdl-js-button mdl-button-raised mdl-button--colored">Começar</button>
             </form>
           </main>
 	</body>
