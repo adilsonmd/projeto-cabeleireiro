@@ -31,16 +31,16 @@
                 font-size: 16px;
             }
             .mdl-layout-title {
-                background: url("imagens/capa.png") left / cover;
+                background: url("imagens/capa.png") center / cover;
                 background-repeat: no-repeat;
             }
         </style>
         
 		<div class="demo-layout-transparent mdl-layout mdl-js-layout mdl-layout--fixed-header">
-          <header class="mdl-layout__header">
+          <header class="mdl-layout__header mdl-layout__header--transparent">
             <div class="mdl-layout__header-row">
               <!-- Title -->
-              <span class="mdl-layout-title">Title</span>
+              <span class="mdl-layout-title"></span>
               <!-- Add spacer, to align navigation to the right -->
               <div class="mdl-layout-spacer"></div>
               <!-- Navigation -->
