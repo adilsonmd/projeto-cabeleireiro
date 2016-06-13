@@ -50,14 +50,25 @@
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title">Categorias</span>
             <nav class="mdl-navigation">
-                <a href="#" class="mdl-navigation__link" onclick="pag()">Cortes</a>
-                <a href="#" class="mdl-navigation__link">Hidratação</a>
-                <a href="#" class="mdl-navigation__link">Alisamento</a>
+                <a href="#" class="mdl-navigation__link">Cortes</a>
                 <a href="#" class="mdl-navigation__link">Coloração</a>
+                <a href="#" class="mdl-navigation__link">Alisamento</a>
+                <a href="#" class="mdl-navigation__link">Hidratação</a>
             </nav>
         </div>
 
-        <div class="mdl-grid">
+        
+            <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+                <div class="mdl-tabs__tab-bar">
+                    <a href="#cortes" class="mdl-tabs__tab is-active">Cortes</a>
+                    <a href="#coloracao" class="mdl-tabs__tab">Coloração</a>
+                    <a href="#alisamento" class="mdl-tabs__tab">Alisamento</a>
+                    <a href="#hidratacao" class="mdl-tabs__tab">Hidratação</a>
+                </div>
+
+            <div class="mdl-grid">
+                <div class="mdl-tabs__panel is-active" id="cortes">
+                     <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div> <!-- Espaçamento -->
                 
             <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img class="attachment-thumbnail wp-post-image" src="imagens/catalogo/corte1.jpg" id="img1">
@@ -124,18 +135,26 @@
             <div class="mdl-cell mdl-cell--1-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div> <!-- Espaçamento -->
 
         </div>
+                </div>
+                <div class="mdl-tabs__panel" id="coloracao">
+                    <ul>
+                    <li>Tywin</li>
+                    <li>Cersei</li>
+                    <li>Jamie</li>
+                    <li>Tyrion</li>
+                    </ul>
+                </div>
+                <div class="mdl-tabs__panel" id="alisamento">
+                    <ul>
+                    <li>Viserys</li>
+                    <li>Daenerys</li>
+                    </ul>
+                </div>
+                <div class="mdl-tabs__panel" id="hidratacao">
 
-        <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div> <!-- Espaçamento -->
-                
-            <div class="mdl-cell mdl-cell--4-col-desktop img-cell"> <!-- conteúdo --></div>
-                
-            <div class="mdl-cell mdl-cell--1-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div> <!-- Espaçamento -->
-                
-            <div class="mdl-cell mdl-cell--4-col-desktop img-cell"></div> <!-- Espaçamento -->
-
-            <div class="mdl-cell mdl-cell--1-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div> <!-- Espaçamento -->
-
+                    
+                </div>
+            </div>
         </div>
         
        <?php
