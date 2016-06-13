@@ -11,19 +11,16 @@
 		<script defer src="mdl/material.min.js"></script>
 		<link rel="stylesheet" href="css/estilo.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
-		<script src="dialog-polyfill.js"></script>
-  		<link rel="stylesheet" type="text/css" href="dialog-polyfill.css" />
 
 	</head>
 
 	<body>
 	    <style>
             .demo-layout-transparent {
-              background: url('../imagens/cabelo.jpg') center / cover;
-              -webkit-linear-gradient(-90deg, rgba(255,255,255,0.01) 0, rgba(255,91,10,0.51) 100%);
-        	  -moz-linear-gradient(180deg, rgba(255,255,255,0.01) 0, rgba(255,91,10,0.51) 100%);
-        	  linear-gradient(180deg, rgba(255,255,255,0.01) 0, rgba(255,91,10,0.51) 100%);
+              
+              background: -webkit-linear-gradient(-90deg, rgba(255,255,255,0.01) 0, rgba(255,91,10,0.51) 100%) url('../imagens/cabelo.jpg') center / cover;
+        	  background: -moz-linear-gradient(180deg, rgba(255,255,255,0.01) 0, rgba(255,91,10,0.51) 100%) url('../imagens/cabelo.jpg') center / cover;
+        	  background: linear-gradient(180deg, rgba(255,255,255,0.01) 0, rgba(255,91,10,0.51) 100%) url('../imagens/cabelo.jpg') center / cover;
             }
             .demo-layout-transparent .mdl-layout__header,
             .demo-layout-transparent .mdl-layout__drawer-button, .mdl-navigation .mdl-navigation__link {
