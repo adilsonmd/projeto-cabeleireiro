@@ -31,7 +31,8 @@
                 font-size: 16px;
             }
             .mdl-layout-title {
-                background: url("imagens/capa.png") center / cover;
+                background: url("imagens/capa.png");
+                background-size: cover;
                 background-repeat: no-repeat;
             }
         </style>
