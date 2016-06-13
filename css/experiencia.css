@@ -1,0 +1,13 @@
+.enjoy-css {
+
+  width: 600px;
+  height: 600px;
+
+  background: -webkit-linear-gradient(-90deg, rgba(255,255,255,0.01) 0, rgba(255,91,10,0.51) 100%), url("cabelo.jpg");
+  background: -moz-linear-gradient(180deg, rgba(255,255,255,0.01) 0, rgba(255,91,10,0.51) 100%), url("cabelo.jpg");
+  background: linear-gradient(180deg, rgba(255,255,255,0.01) 0, rgba(255,91,10,0.51) 100%), url("cabelo.jpg");
+  background-position: 45% center, 50% center;
+  
+  -webkit-background-size: cover;
+  
+}
