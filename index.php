@@ -51,13 +51,13 @@
             form {
                 margin: 0 auto 0 auto;
                 position: absolute;
-                left: 50%;
+                left: 45%;
             }
             .mdl-button {
                 text-transform: capitalize;
                 font-weight: 600;
                 font-size: 16px;
-                padding: 3px 18px;
+                padding: 5px 20px;
             }
         </style>
         
