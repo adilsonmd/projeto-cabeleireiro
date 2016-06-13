@@ -26,7 +26,7 @@
             .demo-layout-transparent .mdl-layout__drawer-button {
               /* This background is dark, so we set text to white. Use 87% black instead if
                  your background is light. */
-              color: white;
+              color: rgba(0,0,0,0.87);
             }
         </style>
         
@@ -46,10 +46,5 @@
             </div>
           </header>
           
-          
-		<?php
-        	include("footer.html");
-		?> 
-		
 	</body>
 </html>
