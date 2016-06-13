@@ -21,9 +21,12 @@
 	    <style>
             .demo-layout-transparent {
               background: url('../imagens/cabelo.jpg') center / cover;
+              -webkit-linear-gradient(-90deg, rgba(255,255,255,0.01) 0, rgba(255,91,10,0.51) 100%);
+        	  -moz-linear-gradient(180deg, rgba(255,255,255,0.01) 0, rgba(255,91,10,0.51) 100%);
+        	  linear-gradient(180deg, rgba(255,255,255,0.01) 0, rgba(255,91,10,0.51) 100%);
             }
             .demo-layout-transparent .mdl-layout__header,
-            .demo-layout-transparent .mdl-layout__drawer-button {
+            .demo-layout-transparent .mdl-layout__drawer-button, .mdl-navigation .mdl-navigation__link {
               /* This background is dark, so we set text to white. Use 87% black instead if
                  your background is light. */
               color: rgba(0,0,0,0.87);
