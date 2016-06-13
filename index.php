@@ -20,16 +20,18 @@
 	<body>
 		
 
-    			<header class="mdl-layout__header">
-				<?php 
-				include("menu.php");
-				?>
+    		<header class="mdl-layout__header">
+		<?php 
+  		    include("menu.php");
+		?>
         	</header>
 
 
-			<div class="bg-main hidden-xs">
-          <div class="bg-main-img lazy lazy-no-small" data-original="imagens/cabelo.jpg" style="display: block; background-image: url(&quot;imagens/cabelo.jpg&quot;);"></div>
-      </div>
+		<div class="bg-gradient">
+			<div class="bd-main">
+				
+			</div>
+      		</div>
 
 			<?php
             include("footer.html");
