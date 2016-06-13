@@ -13,32 +13,11 @@
 		
 		<script src="dialog-polyfill.js"></script>
   		<link rel="stylesheet" type="text/css" href="dialog-polyfill.css" />
-  		
-		<script>
-			$(windows).ready(function() {
-				var snackbarContainer = $('#demo-toast-example');
-			
-				var data = {message: 'Para uma melhor experiência use o navegador Google Chrome.'};
-					snackbarContainer.MaterialSnackbar.showSnackbar(data);
-				});
-			}());
-		</script>
 
 	</head>
 
 	<body>
-		<dialog>
-		    I'm a dialog!
-		    <form method="dialog">
-		      <input type="submit" value="Close" />
-		    </form>
-		  </dialog>
-		  <script>
-		    var dialog = document.querySelector('dialog');
-		    dialogPolyfill.registerDialog(dialog);
-		    // Now dialog acts like a native <dialog>.
-		    dialog.showModal();
-		  </script>
+		
 		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 			<header class="mdl-layout__header">
 				<?php 

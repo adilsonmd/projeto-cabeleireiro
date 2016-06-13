@@ -47,16 +47,6 @@
             include("menu.php");
             ?>    
         </header>
-        <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">Categorias</span>
-            <nav class="mdl-navigation">
-                <a href="#" class="mdl-navigation__link">Cortes</a>
-                <a href="#" class="mdl-navigation__link">Coloração</a>
-                <a href="#" class="mdl-navigation__link">Alisamento</a>
-                <a href="#" class="mdl-navigation__link">Hidratação</a>
-            </nav>
-        </div>
-
         
             <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
                 <div class="mdl-tabs__tab-bar">
@@ -68,91 +58,19 @@
 
             <div class="mdl-grid">
                 <div class="mdl-tabs__panel is-active" id="cortes">
-                     <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div> <!-- Espaçamento -->
-                
-            <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img class="attachment-thumbnail wp-post-image" src="imagens/catalogo/corte1.jpg" id="img1">
-                <ul>
-                    <li>
-                        <a href="#"><span class="tip">Corte 1 - massa.</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-                
-            <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img class="attachment-thumbnail wp-post-image" src="imagens/catalogo/corte2.jpg" id="img1">
-                <ul>
-                    <li>
-                        <a href="#"><span class="tip">Corte 2 - massa.</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-                
-            <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img class="attachment-thumbnail wp-post-image" src="imagens/catalogo/corte3.jpg" id="img1">
-                <ul>
-                    <li>
-                        <a href="#"><span class="tip">Corte 3 - massa.</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="mdl-cell mdl-cell--1-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div> <!-- Espaçamento -->
-
-        </div>
-
-        <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div> <!-- Espaçamento -->
-                
-            <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img class="attachment-thumbnail wp-post-image" src="imagens/catalogo/corte4.jpg" id="img1">
-                <ul>
-                    <li>
-                        <a href="#"><span class="tip">Corte 4 - massa.</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-                
-            <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img class="attachment-thumbnail wp-post-image" src="imagens/catalogo/corte5.jpg" id="img1">
-                <ul>
-                    <li>
-                        <a href="#"><span class="tip">Corte 5 - hm.</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-                
-            <div class="mdl-cell mdl-cell--3-col-desktop img-cell"><img class="attachment-thumbnail wp-post-image" src="imagens/catalogo/corte6.jpg" id="img1">
-                <ul>
-                    <li>
-                        <a href="#"><span class="tip">Corte 6 - massa.</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="mdl-cell mdl-cell--1-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div> <!-- Espaçamento -->
-
-        </div>
+                    <?php include ("catalogo/cortes.html"); ?>
                 </div>
+
                 <div class="mdl-tabs__panel" id="coloracao">
-                    <ul>
-                    <li>Tywin</li>
-                    <li>Cersei</li>
-                    <li>Jamie</li>
-                    <li>Tyrion</li>
-                    </ul>
+                    <?php include("catalogo/coloracao.html"); ?>
                 </div>
-                <div class="mdl-tabs__panel" id="alisamento">
-                    <ul>
-                    <li>Viserys</li>
-                    <li>Daenerys</li>
-                    </ul>
-                </div>
-                <div class="mdl-tabs__panel" id="hidratacao">
 
-                    
+                <div class="mdl-tabs__panel" id="alisamento">
+                    <?php include("catalogo/alisamento.html"); ?>
+                </div>
+
+                <div class="mdl-tabs__panel" id="hidratacao">
+                    <?php include("catalogo/hidratacao"); ?>    
                 </div>
             </div>
         </div>
