@@ -18,24 +18,22 @@
 	</head>
 
 	<body>
-		
-
-    		<header class="mdl-layout__header">
-		<?php 
+		<header class="mdl-layout__header">
+		    <?php 
   		    include("menu.php");
-		?>
-        	</header>
+		    ?>
+    	</header>
 
 
-		<div class="bg-gradient">
-			<div class="bd-main">
+		<div class="mdl-layout__content bg-gradient">
+			<div class="bg-main">
 				
 			</div>
-      		</div>
+  		</div>
 
-			<?php
-            include("footer.html");
-			?>
+		<?php
+        	include("footer.html");
+		?>
 
 		</div>
 		
