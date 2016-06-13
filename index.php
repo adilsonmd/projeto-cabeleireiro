@@ -57,7 +57,6 @@
                 text-transform: capitalize;
                 font-weight: 600;
                 font-size: 16px;
-                padding: 5px 20px;
             }
         </style>
         
