@@ -31,14 +31,19 @@
                 font-size: 16px;
             }
             .mdl-layout-title {
-                background: url("imagens/capa.png");
-                background-size: cover;
+                background-image: url("imagens/capa.png");
+                background-size: auto;
                 background-repeat: no-repeat;
+            }
+            .title-jumbo {
+            	font-weight: 900;
+            	font-size: 48px;
+            	color: white;
             }
         </style>
         
 		<div class="demo-layout-transparent mdl-layout mdl-js-layout mdl-layout--fixed-header">
-          <header class="mdl-layout__header">
+          <header class="mdl-layout__header mdl-layout__header--transparent">
             <div class="mdl-layout__header-row">
               <!-- Title -->
               <div class="mdl-layout-title"></div>
@@ -52,6 +57,10 @@
               </nav>
             </div>
           </header>
-          
+          <main>
+          	<div class="mdl-layout__content">
+          		<h2 class="title-jumbo">Confira nosso catálogo e faça um agendamento, tudo online.</h2>
+          	</div>
+          </main>
 	</body>
 </html>
