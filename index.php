@@ -64,9 +64,7 @@
             </div>
           </header>
           <main>
-          	<div class="mdl-layout__content">
-          		<h2 class="title-jumbo">Confira nosso catálogo e faça um agendamento, tudo online.</h2>
-          	</div>
+  		<h2 class="title-jumbo">Confira nosso catálogo e faça um agendamento, tudo online.</h2>
           </main>
 	</body>
 </html>
