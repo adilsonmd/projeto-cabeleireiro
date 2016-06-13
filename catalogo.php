@@ -52,25 +52,20 @@
                 <div class="mdl-tabs__tab-bar">
                     <a href="#cortes" class="mdl-tabs__tab is-active">Cortes</a>
                     <a href="#coloracao" class="mdl-tabs__tab">Coloração</a>
-                    <a href="#alisamento" class="mdl-tabs__tab">Alisamento</a>
-                    <a href="#hidratacao" class="mdl-tabs__tab">Hidratação</a>
+                    <a href="#alisamento" class="mdl-tabs__tab">Hidratação</a>
                 </div>
 
             <div class="mdl-grid">
                 <div class="mdl-tabs__panel is-active" id="cortes">
-                    <?php include ("catalogo/cortes.html"); ?>
+                    <?php include("catalogo/cortes.html"); ?>
                 </div>
 
                 <div class="mdl-tabs__panel" id="coloracao">
                     <?php include("catalogo/coloracao.html"); ?>
                 </div>
 
-                <div class="mdl-tabs__panel" id="alisamento">
-                    <?php include("catalogo/alisamento.html"); ?>
-                </div>
-
                 <div class="mdl-tabs__panel" id="hidratacao">
-                    <?php include("catalogo/hidratacao"); ?>    
+                    <?php include("catalogo/hidratacao.html"); ?>
                 </div>
             </div>
         </div>
