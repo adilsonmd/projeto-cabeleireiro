@@ -27,8 +27,10 @@
               /* This background is dark, so we set text to white. Use 87% black instead if
                  your background is light. */
               color: rgba(0,0,0,0.87);
-              font-weight: 500;
-              font-size: 14px;
+            }
+            .mdl-navigation__link {
+                font-weight: 600;
+                font-size: 16px;
             }
         </style>
         
