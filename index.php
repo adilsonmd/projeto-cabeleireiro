@@ -50,7 +50,8 @@
             }
             form {
                 margin: 0 auto 0 auto;
-                position: center;
+                position: absolute;
+                left: 50%;
             }
             .mdl-button {
                 text-transform: capitalize;
