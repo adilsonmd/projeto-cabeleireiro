@@ -29,13 +29,13 @@
               color: rgba(0,0,0,0.87);
             }
             .mdl-navigation__link {
-                font-weight: 600;
+                font-weight: 500;
                 font-size: 16px;
             }
         </style>
         
-		<div class="demo-layout-transparent mdl-layout mdl-js-layout">
-          <header class="mdl-layout__header mdl-layout__header--transparent">
+		<div class="demo-layout-transparent mdl-layout mdl-js-layout mdl-layout--fixed-header">
+          <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
               <!-- Title -->
               <span class="mdl-layout-title">Title</span>
