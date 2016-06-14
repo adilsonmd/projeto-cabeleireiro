@@ -44,14 +44,15 @@
             	color: white;
             	background: transparent;
             	text-align: center;
-            	margin: 50px auto 0 30px;
+                margin-left: auto;
+                margin-right: auto;
+            	margin-top: 50px;
+                margin-bottom: 30px;
             	letter-spacing: -3px;
             	display: block;
             }
             form {
                 margin: 0 auto 0 auto;
-                position: absolute;
-                left: 45%;
             }
             .mdl-button {
                 text-transform: capitalize;
