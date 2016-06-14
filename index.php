@@ -58,6 +58,8 @@
                 text-transform: capitalize;
                 font-weight: 600;
                 font-size: 16px;
+                margin-left: auto;
+                margin-right: auto;
             }
         </style>
         
@@ -90,7 +92,7 @@
             </div>
 
             <div class="mdl-grid">
-                <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div>
+                <div class="mdl-cell mdl-cell--5-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div>
 
                 <div class="mdl-cell mdl-cell--2-col-desktop">
                     <form action="catalogo.php">
@@ -98,7 +100,7 @@
                     </form>
                 </div>
 
-                <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div>
+                <div class="mdl-cell mdl-cell--5-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div>
             </div>
           </main>
 	</body>
