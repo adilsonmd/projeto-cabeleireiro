@@ -44,7 +44,7 @@
             	color: white;
             	background: transparent;
             	text-align: center;
-            	margin: 100px auto;
+            	margin: 50px auto 0;
             	letter-spacing: -3px;
             	display: block;
             }
@@ -76,7 +76,7 @@
             </div>
           </header>
           <main>
-  		    <h2 class="title-jumbo">Confira nosso catálogo e faça um agendamento, tudo online.</h2>
+  		    <h2 class="title-jumbo">Catálogo e agendamento, em um lugar só.</h2>
             
             <form action="catalogo.php">
                 <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Começar</button>
