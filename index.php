@@ -87,10 +87,17 @@
                 <div class="mdl-cell mdl-cell--2-col-desktop"></div>
 
             </div>
+
             <div class="mdl-grid">
-                <form action="catalogo.php">
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Começar</button>
-                </form>
+                <div class="mdl-cell mdl-cell--4-col-desktop"></div>
+
+                <div class="mdl-cell mdl-cell--2-col-desktop">
+                    <form action="catalogo.php">
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Começar</button>
+                    </form>
+                </div>
+                
+                <div class="mdl-cell mdl-cell--4-col-desktop"></div>
             </div>
           </main>
 	</body>
