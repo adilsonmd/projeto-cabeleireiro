@@ -78,26 +78,26 @@
           <main>
   		    <div class="mdl-grid">
 
-                <div class="mdl-cell mdl-cell--2-col-desktop"></div>
+                <div class="mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div>
 
                 <div class="mdl-cell mdl-cell--8-col-desktop">
                     <h2 class="title-jumbo">Catálogo e agendamento, em um só lugar.</h2>
                 </div>
 
-                <div class="mdl-cell mdl-cell--2-col-desktop"></div>
+                <div class="mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div>
 
             </div>
 
             <div class="mdl-grid">
-                <div class="mdl-cell mdl-cell--4-col-desktop"></div>
+                <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div>
 
                 <div class="mdl-cell mdl-cell--2-col-desktop">
                     <form action="catalogo.php">
                         <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Começar</button>
                     </form>
                 </div>
-                
-                <div class="mdl-cell mdl-cell--4-col-desktop"></div>
+
+                <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div>
             </div>
           </main>
 	</body>
