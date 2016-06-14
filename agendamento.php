@@ -42,9 +42,9 @@
 
 
 			<div class="mdl-grid">
-				<div class="mdl-cell mdl-cell--2-col"></div> <!-- Espaçamento -->
+				<div class="mdl-cell mdl-cell--3-col"></div> <!-- Espaçamento -->
 				
-				<div id="content" class="mdl-cell mdl-cell--8-col mdl-layout__content"> <!-- Conteúdo -->
+				<div id="content" class="mdl-cell mdl-cell--6-col mdl-layout__content"> <!-- Conteúdo -->
 						<!-- Tooltip -->
 						<div id="info" class="icon material-icons">help_outline</div>
 						<div class="mdl-tooltip mdl-tooltip--large mdl-tooltip--left" for="info">
@@ -59,18 +59,20 @@
 							<label class="mdl-textfield__label" for="user">Seu nome</label>
 							<span class="mdl-textfield__error">Apenas letras e espaço</span>
 						</div>
-
+						<br />
+						
 						<div class="mdl-textfield mdl-js-textfield">
 							<input class="mdl-textfield__input" type="text" name="tel" id="telefone" pattern="[\(]\d{2}[\)]\d{5}[\-]\d{4}">
 							<label class="mdl-textfield__label" for="telefone">Seu telefone</label>
 							<span class="mdl-textfield__error">Preencha corretamente</span>
 						</div>
-						<br>
+						<br />
+
 						<div class="">
 							<label for="calendario mdl-textfield__label">Escolha uma data</label>
 							<input type="date" name="calendario" min="01/01/2016" max="31/12/2020" id="calendario"/>
 						</div>
-						<br>
+						<br />
 
 						<div class="">
 							<select>
@@ -90,7 +92,7 @@
 							</select>	
 							
 						</div>
-						<br>
+						<br />
 
 						<button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
 							Continuar
@@ -98,7 +100,7 @@
 					</form>
 				</div>
 
-				<div class="mdl-cell mdl-cell--2-col"></div> <!-- Espaçamento -->
+				<div class="mdl-cell mdl-cell--3-col"></div> <!-- Espaçamento -->
 			</div>
 
 			<?php
