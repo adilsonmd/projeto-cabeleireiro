@@ -55,9 +55,11 @@
                 <div class="mdl-cell mdl-cell--2-col-desktop"></div> <!-- Espaçamento -->
             </div>
 
+        <footer class="mdl-mini-footer">
             <?php
-                include("footer.html");
+            include("footer.html");
             ?>
+        </footer>
         </div>
         
     </body>

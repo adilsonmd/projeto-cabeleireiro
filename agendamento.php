@@ -103,9 +103,11 @@
 				<div class="mdl-cell mdl-cell--3-col"></div> <!-- Espaçamento -->
 			</div>
 
-			<?php
-            include("footer.html");
-			?>
+			<footer class="mdl-mini-footer">
+				<?php
+				include("footer.html");
+				?>
+        	</footer>
 		</div>
 		
 	</body>

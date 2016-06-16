@@ -42,6 +42,7 @@
 
 <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
         <header class="mdl-layout__header">
             <?php 
             include("menu.php");
@@ -70,9 +71,12 @@
             </div>
         </div>
         
-       <?php
-        include("footer.html");
-        ?>
+        <footer class="mdl-mini-footer">
+            <?php
+            include("footer.html");
+            ?>
+        </footer>
+
     </div>
     
 </body>
