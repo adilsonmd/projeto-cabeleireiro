@@ -23,9 +23,6 @@
             padding-top: 4px;
             color: black;
         }
-        .mdl-grid:first-of-type .mdl-cell {
-            max-height: 100%;
-        }
 
         .img-cell{
            background-color: transparent;
