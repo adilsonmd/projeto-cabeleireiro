@@ -24,11 +24,11 @@
             .demo-layout-transparent .mdl-layout__drawer-button, .mdl-navigation .mdl-navigation__link {
               /* This background is dark, so we set text to white. Use 87% black instead if
                  your background is light. */
-                color: rgba(0,0,0,0.87);
+                color: #545859;
             }
             .mdl-navigation__link {
-                font-weight: 500;
-                font-size: 16px;
+                font-weight: 600;
+                font-size: 18px;
             }
             .mdl-layout-title {
                 background-image: url("imagens/capa.png");
@@ -58,8 +58,7 @@
                 text-transform: capitalize;
                 font-weight: 600;
                 font-size: 16px;
-                margin-left: auto;
-                margin-right: auto;
+                margin: 0 auto;
             }
         </style>
         
@@ -94,7 +93,7 @@
             <div class="mdl-grid">
                 <div class="mdl-cell mdl-cell--5-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet"></div>
 
-                <div class="mdl-cell mdl-cell--2-col-desktop">
+                <div class="mdl-cell mdl-cell--2-col">
                     <form action="catalogo.php">
                         <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Começar</button>
                     </form>

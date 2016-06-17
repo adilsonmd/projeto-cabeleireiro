@@ -34,8 +34,9 @@
         #img1 {
 
             background-repeat: no-repeat;
-            background-size: inherit;
-            background-position: center;
+            background-size: cover;
+            top: 0;
+            left: 0;
         }
     </style>
 </head>
