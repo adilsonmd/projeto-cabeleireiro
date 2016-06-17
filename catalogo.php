@@ -32,7 +32,7 @@
         }
         img { 
             padding: 0;
-            /* max-width: 100%; */
+            max-width: 90%;
             max-height: 100%;
         }
         #img1 {
