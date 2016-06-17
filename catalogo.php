@@ -32,8 +32,8 @@
         }
         img { 
             padding: 0;
-            max-width: 90%;
-            max-height: 100%;
+            max-width: 100%;
+            min-height: 80%;
         }
         #img1 {
 
