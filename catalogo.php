@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="css/estilo.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-            
+        .mdl-grid {
+            padding-left: 0;
+        }
         .mdl-cell, img {
             box-sizing: border-box;
             background-color: #fcfcfc;
@@ -34,7 +36,7 @@
         #img1 {
 
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: auto;
             top: 0;
             left: 0;
         }
