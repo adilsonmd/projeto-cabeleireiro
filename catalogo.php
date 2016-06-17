@@ -32,6 +32,7 @@
         }
         img { 
             padding: 0;
+            max-width: 100%;
         }
         #img1 {
 

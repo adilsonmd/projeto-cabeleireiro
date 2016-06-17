@@ -1,9 +1,7 @@
+/* *{margin:0;padding:0;border:0;list-style:none;outline:none;} 
 
-*{margin:0;padding:0;border:0;list-style:none;outline:none;} /* Fazendo reset */
+a{text-decoration:none;} 
 
-a{text-decoration:none;} /* Links sem efeitos */
-
-/* Carecteristicas de tudo que esta dentro da Div e com Link */
 .mdl-cell {
     width: 397px;
     height: 200px;
@@ -18,7 +16,6 @@ a{text-decoration:none;} /* Links sem efeitos */
     float: left;
 }
 
-/* Efeitos do texto */
 .mdl-cell image ul li a span{
     display: block;
     padding: 10px;
@@ -34,8 +31,7 @@ a{text-decoration:none;} /* Links sem efeitos */
     -moz-opacity: 0;
     filter: alpha(opacity=0);
 }
-
-/* Efeitos do texto quando o mouse estive em cima da Imagem */ 
+ 
 .mdl-cell image:hover ul li span{
     border: none;
     opacity: 1;
@@ -45,8 +41,9 @@ a{text-decoration:none;} /* Links sem efeitos */
 }
 
 
-.mdl-cell ul li a span{ /* Espa�o da mensagem que ira aparecer */
+.mdl-cell ul li a span{ 
     width: 397px;
     padding-bottom: 10px;
     padding-left: 20px;
 }
+*/
