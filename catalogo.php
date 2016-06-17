@@ -32,10 +32,9 @@
         }
         img { 
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: auto;
             padding: 0;
             max-width: 100%;
-            min-height: 80%;
         }
     </style>
 </head>
