@@ -13,7 +13,6 @@
     <style>
         .mdl-grid {
             padding-left: 0;
-            display: block;
             margin: auto;
         }
         .mdl-cell, img {
