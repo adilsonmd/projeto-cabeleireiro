@@ -31,16 +31,11 @@
            
         }
         img { 
+            background-repeat: no-repeat;
+            background-size: cover;
             padding: 0;
             max-width: 100%;
             min-height: 80%;
-        }
-        #img1 {
-
-            background-repeat: no-repeat;
-            background-size: cover;
-            top: 0;
-            left: 0;
         }
     </style>
 </head>
