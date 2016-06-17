@@ -13,22 +13,24 @@
     <style>
         .mdl-grid {
             padding-left: 0;
+            display: block;
+            margin: auto;
         }
         .mdl-cell, img {
             box-sizing: border-box;
             background-color: #fcfcfc;
-            height: 210px;
+            max-height: 100%;
             padding-left: 8px;
             padding-top: 4px;
             color: black;
         }
         .mdl-grid:first-of-type .mdl-cell {
-            height: 210px;
+            max-height: 100%;
         }
+
         .img-cell{
            background-color: transparent;
-           color: white; 
-           
+           color: white;   
         }
 
         img { 
