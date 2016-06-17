@@ -38,7 +38,7 @@
         #img1 {
 
             background-repeat: no-repeat;
-            background-size: auto;
+            background-size: cover;
             top: 0;
             left: 0;
         }
