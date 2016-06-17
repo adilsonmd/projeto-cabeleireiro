@@ -59,15 +59,15 @@
 
             <div class="mdl-grid">
                 <div class="mdl-tabs__panel is-active" id="cortes">
-                    <?php include("catalogo/cortes.html"); ?>
+                    <?php include_once("catalogo/cortes.html"); ?>
                 </div>
 
                 <div class="mdl-tabs__panel" id="coloracao">
-                    <?php include("catalogo/coloracao.html"); ?>
+                    <?php include_once("catalogo/coloracao.html"); ?>
                 </div>
 
                 <div class="mdl-tabs__panel" id="hidratacao">
-                    <?php include("catalogo/hidratacao.html"); ?>
+                    <?php include_once("catalogo/hidratacao.html"); ?>
                 </div>
             </div>
         </div>
