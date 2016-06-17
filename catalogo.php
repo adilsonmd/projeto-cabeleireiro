@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/estilo.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        
+            
         .mdl-cell, img {
             box-sizing: border-box;
             background-color: #fcfcfc;
@@ -54,7 +54,7 @@
                 <div class="mdl-tabs__tab-bar">
                     <a href="#cortes" class="mdl-tabs__tab is-active">Cortes</a>
                     <a href="#coloracao" class="mdl-tabs__tab">Coloração</a>
-                    <a href="#alisamento" class="mdl-tabs__tab">Hidratação</a>
+                    <a href="#hidratacao" class="mdl-tabs__tab">Hidratação</a>
                 </div>
 
             <div class="mdl-grid">
