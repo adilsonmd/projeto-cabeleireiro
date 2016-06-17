@@ -33,7 +33,7 @@
         img { 
             padding: 0;
             max-width: 100%;
-            max-height: 75%;
+            max-height: 100%;
         }
         #img1 {
 
