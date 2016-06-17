@@ -32,7 +32,7 @@
         }
         img { 
             background-repeat: no-repeat;
-            background-size: auto;
+            background-size: contain;
             padding: 0;
             max-width: 100%;
         }
