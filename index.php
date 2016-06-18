@@ -66,7 +66,7 @@
           <header class="mdl-layout__header mdl-layout__header--transparent">
             <div class="mdl-layout__header-row">
               <!-- Title -->
-              <div class="mdl-layout-title">Cutlist</div>
+              <div class="mdl-layout-title"><a href="index.php">Cutlist</a></div>
               <!-- Add spacer, to align navigation to the right -->
               <div class="mdl-layout-spacer"></div>
               <!-- Navigation -->
