@@ -26,15 +26,12 @@
                  your background is light. */
                 color: #545859;
             }
-            .mdl-navigation__link {
+            .mdl-navigation__link, .mdl-layout-title {
                 font-weight: 600;
-                font-size: 18px;
+                color: #545859;
+                font-size: 24px;
             }
-            .mdl-layout-title {
-                background-image: url("imagens/capa.png");
-                background-size: auto;
-                background-repeat: no-repeat;
-            }
+            
             .mdl-layout__content, .title-jumbo {
             	font-weight: 900;
             	border: none;
@@ -66,7 +63,7 @@
           <header class="mdl-layout__header mdl-layout__header--transparent">
             <div class="mdl-layout__header-row">
               <!-- Title -->
-              <div class="mdl-layout-title"><a href="index.php">Cutlist</a></div>
+              <div class="mdl-layout-title">Cutlist</div>
               <!-- Add spacer, to align navigation to the right -->
               <div class="mdl-layout-spacer"></div>
               <!-- Navigation -->
