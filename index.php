@@ -34,7 +34,9 @@
             .mdl-navigation__link {
                 font-weight: 600;
             }
-            
+            .mdl-layout-title {
+                font-size: 28px;
+            }
             .mdl-layout__content, .title-jumbo {
             	font-weight: 900;
             	border: none;
