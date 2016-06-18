@@ -27,9 +27,12 @@
                 color: #545859;
             }
             .mdl-navigation__link, .mdl-layout-title {
-                font-weight: 600;
+                font-weight: 500
                 color: #545859;
                 font-size: 18px;
+            }
+            .mdl-navigation__link {
+                font-weight: 600;
             }
             
             .mdl-layout__content, .title-jumbo {
