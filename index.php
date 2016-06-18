@@ -29,7 +29,7 @@
             .mdl-navigation__link, .mdl-layout-title {
                 font-weight: 600;
                 color: #545859;
-                font-size: 24px;
+                font-size: 18px;
             }
             
             .mdl-layout__content, .title-jumbo {
